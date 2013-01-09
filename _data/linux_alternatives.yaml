@@ -509,7 +509,7 @@
       url: http://listengnome.free.fr/
     Quod Libet: &LinuxQuodLibet
       internal_link: Quod_Libet.html
-      url: http://www.sacredchao.net/quodlibet
+      url: http://code.google.com/p/quodlibet/ 
     Rhythmbox: &LinuxRhythmbox
       internal_link: Rhythmbox.html
       url: http://www.gnome.org/projects/rhythmbox/
