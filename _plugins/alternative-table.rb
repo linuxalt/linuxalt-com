@@ -17,6 +17,7 @@ module Jekyll
 
            d['windows_software'].each_key { |win|
                software_hash["win_software"] = win
+               software_hash["win_internal_url"] = d['windows_software'][win]['internal_link']
                software_hash["linux_alternatives"] = Array.new 
                d['linux_alternatives'].each_key { |linux|
 		   linux_hash = Hash.new
@@ -48,7 +49,6 @@ module Jekyll
        end
 
        # now we need to generate the sitemap data for inclusion in sitemap.xml
-
 
     end
 

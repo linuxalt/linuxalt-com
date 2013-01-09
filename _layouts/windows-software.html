@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h2> Linux Alternatives To {{page.name}}</h2>
+
+{% if page.alternatives != empty %}
+<p>
+ <ul>
+{% for a in page.alternatives %}
+  <li> <a href="linux-software/{{ a.internal_link }}">{{ a.name }}</a> (<a href="{{ a.url }}" target="_new">{{ a.url }}</a>)
+{% endfor %}
+
+ </ul>
+</p>
+{% endif %}      
