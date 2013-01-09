@@ -99,9 +99,6 @@
     Inkscape: &LinuxInkspace
       internal_link: Inkscape.html
       url: http://www.inkscape.org/
-    Karbon14: &LinuxKarbon14
-      internal_link: Karbon14.html
-      url: http://www.koffice.org/karbon/
     Skencil: &LinuxSkencil
       internal_link: Skencil.html
       url: http://www.skencil.org/
@@ -169,9 +166,6 @@
     GIMP: &LinuxGIMP
       internal_link: GIMP.html
       url: http://www.gimp.org/
-    Krita: &LinuxKrita
-      internal_link: Krita.html
-      url: http://www.koffice.org/krita/
   windows_software:
     Adobe Photoshop: &WinAdobePhotoshop
       internal_link: adobe_photoshop.html
@@ -577,9 +571,6 @@
     GNOME-DB: &LinuxGNOMEDB
       internal_link: GNOMEDB.html
       url: http://www.gnome-db.org/
-    Kexi: &LinuxKexi
-      internal_link: Kexi.html
-      url: http://www.koffice.org/kexi/
     knoda: &Linuxknoda
       internal_link: knoda.html
       url: http://www.knoda.org
@@ -593,9 +584,6 @@
     Gnumeric: &LinuxGnumeric
       internal_link: Gnumeric.html
       url: http://www.gnome.org/projects/gnumeric/
-    KSpread: &LinuxKSpread
-      internal_link: KSpread.html
-      url: http://www.koffice.org/kspread/
     Open Calc: &LinuxOpenCalc
       internal_link: Open_Calc.html
       url: http://www.openoffice.org/product/calc.html
@@ -669,9 +657,6 @@
     GNOME Office: &LinuxGNOMEOffice
       internal_link: GNOME_Office.html
       url: http://www.gnome.org/gnome-office/
-    KOffice: &LinuxKOffice
-      internal_link: KOffice.html
-      url: http://www.koffice.org/
     OpenOffice: &LinuxOpenOffice
       internal_link: OpenOffice.html
       url: http://www.openoffice.org/
@@ -695,9 +680,6 @@
 ## Microsoft Powerpoint
 
 - linux_alternatives:
-    KPresenter: &LinuxKPresenter
-      internal_link: KPresenter.html
-      url: http://www.koffice.org/kpresenter/
     Open Office Impress: &LinuxOpenOfficeImpress
       internal_link: Open_Office_Impress.html
       url: http://www.openoffice.org/product/impress.html
@@ -714,9 +696,6 @@
     GanttProject: &LinuxGanttProject
       internal_link: GanttProject.html
       url: http://ganttproject.sourceforge.net/
-    KPlato: &LinuxKPlato
-      internal_link: KPlato.html
-      url: http://www.koffice.org/kplato/
     OpenProj: &LinuxOpenProj
       internal_link: OpenProj.html
       url: http://openproj.org/openproj
@@ -737,9 +716,6 @@
     Dia: &LinuxDia
       internal_link: Dia.html
       url: http://www.gnome.org/projects/dia/
-    Kivio: &LinuxKivio
-      internal_link: Kivio.html
-      url: http://www.koffice.org/kivio/
   windows_software:
     Microsoft Visio: &WinMicrosoftVisio
       internal_link: microsoft_visio.html
@@ -779,9 +755,6 @@
     AbiWord: &LinuxAbiWord
       internal_link: AbiWord.html
       url: http://www.abisource.com/
-    Kword: &LinuxKword
-      internal_link: Kword.html
-      url: http://www.koffice.org/kword/
     Open Office Writer: &LinuxOpenOfficeWriter
       internal_link: Open_Office_Writer.html
       url: http://www.openoffice.org/product/writer.html
