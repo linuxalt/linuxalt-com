@@ -1,0 +1,5 @@
+<ul>
+{% for e in entries %}
+  <li><a href="{{ e.['url'] }}" target="_new">{{ e['title'] }}</a>
+{% endfor %}
+</ul>

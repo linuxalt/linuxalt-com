@@ -1,0 +1,10 @@
+{% for keys in software %}
+   <blockquote>   
+    <h2> {{ keys[0] | upcase }} </h2> 
+    <ul>
+ {% for l in keys[1] %}
+      <li><a href="/linux-software/{{ l.internal_link }}">{{ l.name }}</a>
+ {% endfor %}
+    </ul>
+  </blockquote>
+{% endfor %}

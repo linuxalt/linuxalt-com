@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+      <div class="box" style="float: left;">
+       <h2>Articles</h2>
+        <ul>
+    {% for post in site.posts limit:5 %}
+          <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+        </ul>
+      </div>
+
+      <div class="box" style="float: right;">
+       <h2>Forum Activity</h2>
+         {% include forum-activity.html %}
+      </div>
+
+      <div class="clear"></div>
+
+      <div id="alternatives-table">
+       <h2>Alternatives</h2>
+        {% include alternative-table.html %}
+      </div>

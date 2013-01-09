@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h2> {{ page.name }}: <a href="{{ page.projecturl }}" target="_new">{{ page.projecturl }}</a></h2>
+
+{% if page.similar != empty %}
+<p>
+ <h3>Similar Software:</h3>
+ {% for s in page.similar %}<a href="/linux-software/{{ s.internal_link }}">{{ s.name }}</a>{% unless forloop.last %},{% endunless %} {% endfor %}      
+</p>
+{% endif %}      
+
+{% include disqus.html %}

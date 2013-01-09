@@ -1,0 +1,9 @@
+destination: ./_deploy
+auto: false
+lsi: false
+server: false
+pygments: true
+markdown: maruku
+permalink: /:categories/:year/:title.html 
+
+exclude: ['README.md', 'LICENSE.md', '.gitignore']

@@ -1,0 +1,14 @@
+---
+layout: default 
+---
+h1. All Articles:
+
+{% for post in site.categories.articles %} 
+<div id="display">
+
+h4. "{{post.title}}":{{post.url}} *(light)({{post.date | date_to_string}})*
+
+h5. {{post.subtitle}}
+</div>
+{% endfor %}
+

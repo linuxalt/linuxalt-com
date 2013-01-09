@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>
+  {% if page.title %} {{ page.title }} -{% endif %} The Linux Alternative Project
+ </title>
+ <meta http-equiv="Content-Language" content="English" />
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta name="google-site-verification" content="Lgfw0hbOlo7GLB3hunh92a49kNX53OURNHUpSXeig8g" />
+ <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+ <link rel="stylesheet" type="text/css" href="/css/syntax.css" media="screen" />
+ <link rel="alternate" type="application/rss+xml" title="The Linux Alternative Project RSS Feed" href="http://feeds.feedburner.com/TheLinuxAlternativeProject" />
+ <link href="https://plus.google.com/u/0/115920973457565855121" rel="publisher" />
+
+ {% include analytics.html %}
+
+</head>
+
+<body>
+<div id="top">
+    <div class="content">
+
+      <div style="float: left">
+       <h1><a href="/">The Linux Alternative Project</a></h1>
+      </div>
+
+      <div style="float: right; padding-top: 10px">
+       <g:plusone href="http://www.linuxalt.com" size="medium"></g:plusone> 
+       <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.linuxalt.com" data-count="horizontal" data-via="linuxalt">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+      </div>
+
+    </div>			
+</div>
+
+<div class="content">
+	<div id="ad">
+          Welcome to the Linux Alternative Project (formerly the Linux Equivalent Project). My goal is to provide an informational website available to all linux users. The website is currently in beta form and I will periodically update the database with Windows software and the Linux equivalents and alternatives.
+	</div>
+
+        <div class="announce">
+         <a href="/social-networking.html">Find us on Facebook and Twitter</a> | <a href="http://shop.spareroomworkshop.com/products/decals" target="_new">Decals for your laptop [sponsored]</a>
+        </div>
+
+	<div id="main">
+		<div id="right_side">
+		  <div class="roundedbox">
+                    <h2>Navigate</h2>
+                    <hr>
+                    {% include menu.html %}
+                  </div>
+                  <br \>
+
+                 <div>
+                   {% include facebook.html %}
+                 </div>
+
+                  <div>
+                <a href="https://twitter.com/linuxalt" class="twitter-follow-button">Follow @linuxalt</a> <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>                    
+                  </div>
+
+                  <div>
+                    <a href="https://plus.google.com/u/0/115920973457565855121?prsrc=3"
+                    style="text-decoration: none; color: #333;"><div style="display:
+                    inline-block;"><span style="float: left; font: bold 13px/16px
+                    arial,sans-serif; margin-right: 4px;">Linux Alternative Project</span><span style="float: left; font: 13px/16px
+                    arial,sans-serif; margin-right: 11px;">on</span><div style="float:
+                    left;"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png"
+                    width="16" height="16" style="border: 0;"/></div><div style="clear:
+                    both"></div></div></a>
+                  </div>
+
+
+               </div>	
+		<div id="left_side">
+                    {{ content }}
+                </div>
+        </div>
+</div>
+
+<div class="clear"></div>
+
+<div id="footer">
+  <div class="content">
+
+     <div style="float: left; width: 320px">
+       <h2>More Information</h2>
+       <ul>
+        <li><a href="/linux-software/index.html">Linux Software Index</a>
+        <li><a href="/social-networking.html">Social Networking</a>
+       </ul>
+     </div> 
+
+     <div style="float: left; width: 320px">
+      <h2>Links</h2>
+       {% include links.html %}
+     </div> 
+
+     <div style="float: right; width: 320px; text-align: right">
+      <a href="https://www.facebook.com/pages/The-Linux-Alternative-Project/129481340425546" target="_new"><img src="/images/facebook.png"></a>
+      <a href="http://twitter.com/linuxalt" target="_new"><img src="/images/twitter.png"></a>
+      <a href="http://identi.ca/linuxalt" target="_new"><img src="/images/identica.png"></a>
+      <a href="http://feeds.feedburner.com/TheLinuxAlternativeProject" target="_new"><img src="/images/rss.png"></a>
+    </div>
+
+  </div>
+</div>
+
+<div class="content">Since 2006, The Linux Alternative Project!</div>
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+</body>
+</html>

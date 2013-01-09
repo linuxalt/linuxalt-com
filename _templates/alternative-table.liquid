@@ -1,0 +1,16 @@
+<table>
+{% for a in alts %}
+ <tr>
+  <td class="windows-software">
+     {{a.win_software | sort}} 
+  </td>
+  <td>
+    <ul> 
+{% for l in a.linux_alternatives %}
+      <li> <a href="linux-software/{{ l.internal_link }}">{{ l.name }}</a> (<a href="{{ l.url }}" target="_new">{{ l.url }}</a>)
+{% endfor %}
+    </ul>
+  </td>
+ </tr>
+{% endfor %}
+</table>

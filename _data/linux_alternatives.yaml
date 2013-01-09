@@ -1,0 +1,1370 @@
+# This is a YAML Data file for The Linux Alternative Project found at:
+#  http://www.linuxalt.com
+
+---
+## 3D Home Architect
+
+- category: 
+    name: 3D Home Modeling 
+    internal_link: 3d-home-modeling.html
+  linux_alternatives:
+    Sweet Home 3D: &LinuxSweetHome3D
+      internal_link: Sweet_Home_3D.html
+      url: http://sweethome3d.sourceforge.net/index.html
+  windows_software:
+    3D Home Architect: &Win3DHomeArchitect
+      internal_link: 3d_home_architect.html
+  meta: &3DHomeModelingCat
+
+## 3D Studio Max
+
+- linux_alternatives:
+    Art of Illusion: &LinuxArtofIllusion
+      internal_link: Art_of_Illusion.html
+      url: http://www.artofillusion.org/
+    Blender: &LinuxBlender
+      internal_link: Blender.html
+      url: http://www.blender.org/
+    K-3D: &LinuxK3D
+      internal_link: K3D.html
+      url: http://www.k-3d.org/
+    Wings 3D: &LinuxWings3D
+      internal_link: Wings_3D.html
+      url: http://www.wings3d.com/
+  windows_software:
+    3D Studio Max: &Win3DStudioMax
+      internal_link: 3d_studio_max.html
+
+## ACDSee
+
+- linux_alternatives:
+    Eye of GNOME: &LinuxEyeofGNOME
+      internal_link: Eye_of_GNOME.html
+      url: http://www.gnome.org/projects/eog/
+    GQview: &LinuxGQview
+      internal_link: GQview.html
+      url: http://gqview.sourceforge.net/
+    Geeqie: &LinuxGeeqie
+      internal_link: geeqie.html
+      url: http://geeqie.sourceforge.net/
+    Gwenview: &LinuxGwenView
+      internal_link: Gwenview.html
+      url: http://gwenview.sourceforge.net/
+    KuickShow: &LinuxKuickShow
+      internal_link: KuickShow.html
+      url: http://kuickshow.sourceforge.net/
+    ShowImg: &LinuxShowImg
+      internal_link: ShowImg.html
+      url: http://www.jalix.org/projects/showimg/
+  windows_software:
+    ACDSee: &WinACDSee
+      internal_link: acdsee.html
+
+## Adobe Acrobat Reader
+
+- linux_alternatives:
+    Evince: &LinuxEvince
+      internal_link: Evince.html
+      url: http://www.gnome.org/projects/evince/
+## Dead home page?
+#    KPDF: &LinuxKPDF
+#      internal_link: KPDF.html
+#      url: http://kpdf.kde.org/
+    Xpdf: &LinuxXpdf
+      internal_link: Xpdf.html
+      url: http://www.foolabs.com/xpdf/
+    ePDFView: &LinuxePDFView
+      internal_link: ePDFView.html
+      url: http://trac.emma-soft.com/epdfview/
+    okular: &LinuxOkular
+      internal_link: okular.html
+      url: http://okular.kde.org/
+  windows_software:
+    Adobe Acrobat Reader: &WinAdobeAcrobatReader
+      internal_link: adobe_acrobat_reader.html
+
+## Adobe Audition
+
+- linux_alternatives:
+    Audacity: &LinuxAudacity
+      internal_link: Audacity.html
+      url: http://audacity.sourceforge.net/
+  windows_software:
+    Adobe Audition: &WinAdobeAudition
+      internal_link: adobe_audition.html
+
+## Adobe Illustrator
+
+- linux_alternatives:
+    Inkscape: &LinuxInkspace
+      internal_link: Inkscape.html
+      url: http://www.inkscape.org/
+    Karbon14: &LinuxKarbon14
+      internal_link: Karbon14.html
+      url: http://www.koffice.org/karbon/
+    Skencil: &LinuxSkencil
+      internal_link: Skencil.html
+      url: http://www.skencil.org/
+    Xara Xtreme for Linux: &LinuxXaraXtreme
+      internal_link: Xara_Xtreme_for_Linux.html
+      url: http://www.xaraxtreme.org/
+    sK1 Project: 
+      internal_link: sk1-project.html
+      url: http://ww.sk1project.org/ 
+  windows_software:
+    Adobe Illustrator: &WinAdobeIllustrator
+      internal_link: adobe_illustrator.html
+
+## Adobe PageMaker
+
+- linux_alternatives:
+    Scribus: &LinuxScribus
+      internal_link: Scribus.html
+      url: http://www.scribus.net/
+  windows_software:
+    Adobe PageMaker: &WinAdobePageMaker
+      internal_link: adobe_pagemaker.html
+
+## Adobe PhotoAlbum
+
+- linux_alternatives:
+    F-Spot: &LinuxFSpot
+      internal_link: FSpot.html
+      url: http://f-spot.org/Main_Page
+    KPhotoAlbum: &LinuxKPhotoAlbum
+      internal_link: KPhotoAlbum.html
+      url: http://www.kphotoalbum.org/
+    digiKam: &LinuxdigiKam
+      internal_link: digiKam.html
+      url: http://www.digikam.org/
+      articles:
+         - url: http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce-Dmitri-s-open-source-blend-of-productive-computing/Five-Simple-Photo-Fixes-with-digiKam
+           title: Five Simple Photo Fixes with digiKam
+    Shotwell:
+      internal_link: shotwell.html
+      url: http://www.yorba.org/shotwell/
+    gThumb:
+      internal_link: gthumb.html
+      url: http://live.gnome.org/gthumb/
+    jBrout:
+      internal_link: jbrout.html
+      url: http://jbrout.manatlan.com/
+    flPhoto:
+      internal_link: flphoto.html
+      url: http://www.easysw.com/~mike/flphoto/
+  windows_software:
+    Adobe PhotoAlbum: &WinAdobePhotoAlbum
+      internal_link: adobe_photoalbum.html
+    Picasa: &WinPicasa
+      internal_link: picasa.html
+    'iView MediaPro': &WiniViewMediaPro
+      internal_link: iview-mediapro.html      
+
+
+## Adobe Photoshop
+- linux_alternatives:
+    CinePaint: &LinuxCinePaint
+      internal_link: CinePaint.html
+      url: http://www.cinepaint.org/
+    GIMP: &LinuxGIMP
+      internal_link: GIMP.html
+      url: http://www.gimp.org/
+    Krita: &LinuxKrita
+      internal_link: Krita.html
+      url: http://www.koffice.org/krita/
+  windows_software:
+    Adobe Photoshop: &WinAdobePhotoshop
+      internal_link: adobe_photoshop.html
+
+## Adobe Premiere
+# Category: Video editors.
+
+- linux_alternatives:
+    Cinelerra: &LinuxCinelerra
+      internal_link: Cinelerra.html
+      url: http://cvs.cinelerra.org/
+    cinefx: &Linuxcinefx
+      internal_link: cinefx.html
+      url: http://www.cinefx.org/ 
+    Kino: &LinuxKino
+      internal_link: Kino.html
+      url: http://www.kinodv.org/
+    LiVES: &LinuxLiVES
+      internal_link: LiVES.html
+      url: http://lives.sourceforge.net/
+    PiTiVi: &LinuxPiTiVi
+      internal_link: PiTiVi.html
+      url: http://www.pitivi.org/wiki/Main_Page
+    Kdenlive: &Linuxkdenlive
+      internal_link: kdenlive.html
+      url: http://kdenlive.sourceforge.net/
+    OpenShot: &LinuxOpenShot
+      internal_link: openshot.html
+      url: http://www.openshotvideo.com/ 
+    Lombard: &LinuxLombard
+      internal_link: lombard.html
+      url: http://yorba.org/lombard/
+    VideoLAN Movie Creator:
+      internal_link: videolan-movie-creator.html
+      url: http://trac.videolan.org/vlmc/
+    Open Movie Editor:
+      internal_link: Open_Movie_Editor.html
+      url: http://www.openmovieeditor.org/
+  windows_software:
+    Adobe Premiere: &WinAdobePremiere
+      internal_link: adobe-premiere.html
+    Windows Movie Maker: &WinMovieMaker
+      internal_link: windows-movie-maker.html
+
+
+## Ant Movie Catalog
+
+- linux_alternatives:
+    Moviefly: &LinuxMoviefly
+      internal_link: Moviefly.html
+      url: https://savannah.nongnu.org/projects/lmc/
+      description: Moviefly stores information on video media files, including title, actors, genre, descriptions, comments, rating, director, producer, picture, languages, subtitles, video and audio format, video and audio bitrates, resolution, framerate, file size and media type. 
+  windows_software:
+    Ant Movie Catalog: &WinAntMovieCatalog
+      internal_link: ant_movie_catalog.html
+
+# Category:  Instant Messenger
+## AOL Instant Messenger
+
+- linux_alternatives:
+    Kopete: &LinuxKopete
+      internal_link: Kopete.html
+      url: http://kopete.kde.org/
+    Pidgin: &LinuxPidgin
+      internal_link: Pidgin.html
+      url: http://pidgin.im
+    Instantbird:
+      internal_link: instantbird.html
+      url: http://instantbird.com/
+    PSI:
+      internal_link: psi-im.html
+      url: http://psi-im.org/ 
+  windows_software:
+    AOL Instant Messenger (AIM): &WinAOLIM
+      internal_link: aol_instant_messenger_aim.html
+
+## APC PowerChute
+
+- linux_alternatives:
+    Apcupsd: &LinuxApcupsd
+      internal_link: Apcupsd.html
+      url: http://www.apcupsd.com/
+    Network UPS Tools: &LinuxNetworkUPSTools
+      internal_link: Network_UPS_Tools.html
+      url: http://www.networkupstools.org/
+    PowerD: &LinuxPowerD
+      internal_link: PowerD.html
+      url: http://power.sourceforge.net/
+  windows_software:
+    APC PowerChute: &WinAPCPowerChute
+      internal_link: apc_powerchute.html
+
+## CDex
+
+- linux_alternatives:
+    Grip: &LinuxGrip
+      internal_link: Grip.html
+      url: http://nostatic.org/grip/
+    KAudioCreator: &LinuxKAudioCreator
+      internal_link: KAudioCreator.html
+      url: http://www.icefox.net/programs/?program=KAudioCreator
+    Rubyripper: &LinuxRubyripper
+      internal_link: Rubyripper.html
+      url: http://wiki.hydrogenaudio.org/index.php?title=Rubyripper
+    Sound Juicer: &LinuxSoundJuicer
+      internal_link: Sound_Juicer.html
+      url: http://www.burtonini.com/blog/computers/sound-juicer
+    ripperX: &LinuxripperX
+      internal_link: ripperX.html
+      url: http://ripperx.sourceforge.net/
+  windows_software:
+    CDex: &WinCDex
+      internal_link: cdex.html
+    FreeRIP: &WinFreeRIP
+      internal_link: freerip.html
+      url: http://www.freerip.com/
+
+## Collectorz
+
+- linux_alternatives:
+    Alexandria: &LinuxAlexandria
+      internal_link: Alexandria.html
+      url: http://alexandria.rubyforge.org/
+    GCstar: &LinuxGCstar
+      internal_link: GCstar.html
+      url: http://www.gcstar.org/
+    Griffith: &LinuxGriffith
+      internal_link: Griffith.html
+      url: http://griffith.cc/
+    Katalog: &LinuxKatalog
+      internal_link: Katalog.html
+      url: http://salvaste.altervista.org/
+    Tellico: &LinuxTellico
+      internal_link: Tellico.html
+      url: http://tellico-project.org/
+    aviManager: &LinuxaviManager
+      internal_link: aviManager.html
+      url: http://avimanager.sourceforge.net/
+    vMovieDB: &LinuxvMovieDB
+      internal_link: vMovieDB.html
+      url: http://vmoviedb.sourceforge.net/
+  windows_software:
+    Collectorz: &WinCollectorz
+      internal_link: collectorz.html
+
+## Dreamweaver
+
+- linux_alternatives:
+    Bluefish: &LinuxBluefish
+      internal_link: Bluefish.html
+      url: http://bluefish.openoffice.nl/index.html
+    Geany: &LinuxGeany
+      internal_link: Geany.html
+      url: http://geany.uvena.de
+    KompoZer: &LinuxKompoZer
+      internal_link: KompoZer.html
+      url: http://www.kompozer.net/
+    Nvu: &LinuxNvu
+      internal_link: Nvu.html
+      url: http://www.nvu.com/
+    Quanta Plus: &LinuxQuantaPlus
+      internal_link: Quanta_Plus.html
+      url: http://quanta.kdewebdev.org/
+    Screem: &LinuxScreem
+      internal_link: Screem.html
+      url: http://www.screem.org/
+    BlueGriffon:
+      internal_link: bluegriffon.html
+      url: http://bluegriffon.org/ 
+  windows_software:
+    Dreamweaver: &WinDreamweaver
+      internal_link: dreamweaver.html
+    Microsoft Frontpage: &WinMicroSoftFrontPage
+      internal_link: microsoft_frontpage.html
+
+
+## DVDShrink
+
+- linux_alternatives:
+    AcidRip: &LinuxAcidRip
+      internal_link: AcidRip.html
+      url: http://untrepid.com/acidrip/
+    #'DVD Rip-O-Matic': &LinuxDVDRipOMatic
+    #  internal_link: DVD_RipOMatic.html
+    #  url: http://dvdripomatic.sourceforge.net
+    OGMRip: &LinuxOGMRip
+      internal_link: OGMRip.html
+      url: http://ogmrip.sourceforge.net/
+    Thoggen: &LinuxThoggen
+      internal_link: Thoggen.html
+      url: http://thoggen.net/
+    'dvd::rip': &Linuxdvdrip
+      internal_link: dvdrip.html
+      url: http://www.exit1.org/dvdrip/
+    k9copy: &Linuxk9copy
+      internal_link: k9copy.html
+      url: http://k9copy.sourceforge.net/
+    qVamps: &LinuxqVamps
+      internal_link: qVamps.html
+      url: http://vamps.sourceforge.net/
+    xdvdshrink: &Linuxxdvdshrink
+      internal_link: xdvdshrink.html
+      url: http://dvdshrink.sourceforge.net/
+  windows_software:
+    DVDShrink: &WinDVDShrink
+      internal_link: dvdshrink.html
+
+## Everest
+
+- linux_alternatives:
+    HardInfo: &LinuxHardInfo
+      internal_link: HardInfo.html
+      url: http://hardinfo.berlios.de/web/HomePage
+  windows_software:
+    Everest: &WinEverest
+      internal_link: everest.html
+
+## Finale
+
+- linux_alternatives:
+    Brahms: &LinuxBrahms
+      internal_link: Brahms.html
+      url: http://brahms.sourceforge.net/
+    Denemo: &LinuxDenemo
+      internal_link: Denemo.html
+      url: http://denemo.sourceforge.net/index.html
+    Lilypond: &LinuxLilypond
+      internal_link: Lilypond.html
+      url: http://www.lilypond.org
+    NoteEdit: &LinuxNoteEdit
+      internal_link: NoteEdit.html
+      url: http://noteedit.berlios.de/
+    Rosegarden: &LinuxRosegarden
+      internal_link: Rosegarden.html
+      url: http://www.rosegardenmusic.com/
+    MuseScore: &LinuxMuseScore
+      internal_link: musescore.html
+      url: http://musescore.org/ 
+  windows_software:
+    Finale: &WinFinale
+      internal_link: finale.html
+    Sibelius: &WinSibelius
+      internal_link: sibelius.html
+
+## Fontographer
+
+- linux_alternatives:
+    FontForge: &LinuxFontForge
+      internal_link: FontForge.html
+      url: http://fontforge.sourceforge.net/
+  windows_software:
+    Fontographer: &WinFontographer
+      internal_link: fontographer.html
+
+## Forte Agent
+
+- linux_alternatives:
+    Pan: &LinuxPan
+      internal_link: Pan.html
+      url: http://pan.rebelbase.com/
+  windows_software:
+    Forte Agent: &WinForteAgent
+      internal_link: forte_agent.html
+
+## Category:  Music
+## Type: Drum Machines
+
+- linux_alternatives:
+    Hydrogen: &LinuxHydrogen
+      internal_link: Hydrogen.html
+      url: http://www.hydrogen-music.org/
+  windows_software:
+    FruityLoops: &WinFruityLoops
+      internal_link: fruityloops.html
+
+## Google Desktop Search
+
+- linux_alternatives:
+    Beagle: &LinuxBeagle
+      internal_link: Beagle.html
+      url: http://beagle-project.org/
+    Google Desktop: &LinuxGoogleDesktop
+      internal_link: Google_Desktop.html
+      url: http://desktop.google.com/linux/index.html
+  windows_software:
+    Google Desktop Search: &WinGoogleDesktopSearch
+      internal_link: google_desktop_search.html
+
+
+## Google Earth
+
+- category: 
+  linux_alternatives: 
+    Marble:
+      internal_link: marble.html
+      url:  http://edu.kde.org/marble/ 
+    Earth 3D:
+      internal_link: earth-3d.html
+      url: http://www.earth3d.org/
+  windows_software:
+    Google Earth:
+      internal_link: google-earth.html
+
+## Guitar Pro
+
+- linux_alternatives:
+    DGuitar: &LinuxDGuitar
+      internal_link: DGuitar.html
+      #url: http://sourceforge.net/projects/dguitar/
+      url: http://dguitar.sourceforge.net/
+    TuxGuitar: &LinuxTuxGuitar
+      internal_link: TuxGuitar.html
+      url: http://www.tuxguitar.com.ar/home.html
+    kguitar: &Linuxkguitar
+      internal_link: kguitar.html
+      url: http://sourceforge.net/projects/kguitar/
+  windows_software:
+    Guitar Pro: &WinGuitarPro
+      internal_link: guitar_pro.html
+
+## iTunes
+
+- linux_alternatives:
+    Amarok: &LinuxAmarok
+      internal_link: Amarok.html
+      url: http://amarok.kde.org/
+    Banshee: &LinuxBanshee
+      internal_link: Banshee.html
+      url: http://banshee-project.org/Main_Page
+    Exaile: &LinuxExaile
+      internal_link: Exaile.html
+      url: http://www.exaile.org/
+    Listen: &LinuxListen
+      internal_link: Listen.html
+      url: http://listengnome.free.fr/
+    Quod Libet: &LinuxQuodLibet
+      internal_link: Quod_Libet.html
+      url: http://www.sacredchao.net/quodlibet
+    Rhythmbox: &LinuxRhythmbox
+      internal_link: Rhythmbox.html
+      url: http://www.gnome.org/projects/rhythmbox/
+#    SongBird: &LinuxSongBird
+#      internal_link: SongBird.html
+#      url: http://www.songbirdnest.com
+    aTunes: &LinuxaTunes
+      internal_link: aTunes.html
+      url: http://www.atunes.org/
+    gtkpod: &Linuxgtkpod
+      internal_link: gtkpod.html
+      url: http://www.gtkpod.org/
+    Aqualung:
+      internal_link: aqualung.html
+      url: http://aqualung.factorial.hu/misc.html
+    minitunes:
+      internal_link: minitunes.html
+      url: http://flavio.tordini.org/minitunes
+    Decibel Auto Player:
+      internal_link: decibel-audio-player.html
+      url: http://decibel.silent-blade.org/
+  windows_software:
+    iTunes: &WiniTunes
+      internal_link: itunes.html
+    'foobar2000': &Winfoobar2000
+      internal_link: foobar2000.html
+      url: http://www.foobar2000.org/
+
+## Legacy Family Tree
+
+- linux_alternatives:
+    GRAMPS: &LinuxGRAMPS
+      internal_link: GRAMPS.html
+      url: http://gramps-project.org/
+  windows_software:
+    Legacy Family Tree: &WinLegacyFamilyTree
+      internal_link: legacy_family_tree.html
+
+## LimeWire
+
+- linux_alternatives:
+    FrostWire: &LinuxFrostWire
+      internal_link: FrostWire.html
+      url: http://www.frostwire.com/
+  windows_software:
+    LimeWire: &WinLimeWire
+      internal_link: limewire.html
+
+## Meal Master
+
+- linux_alternatives:
+    Gourmet Recipe Manager: &LinuxGourmetRecipeManager
+      internal_link: Gourmet_Recipe_Manager.html
+      url: http://grecipe-manager.sourceforge.net/
+    krecipe: &Linuxkrecipe
+      internal_link: krecipe.html
+      url: http://krecipes.sourceforge.net/
+  windows_software:
+    Meal Master: &WinMealMaster
+      internal_link: meal_master.html
+
+## Microsoft Access
+
+- linux_alternatives:
+    GNOME-DB: &LinuxGNOMEDB
+      internal_link: GNOMEDB.html
+      url: http://www.gnome-db.org/
+    Kexi: &LinuxKexi
+      internal_link: Kexi.html
+      url: http://www.koffice.org/kexi/
+    knoda: &Linuxknoda
+      internal_link: knoda.html
+      url: http://www.knoda.org
+  windows_software:
+    Microsoft Access: &WinMicrosoftAccess
+      internal_link: microsoft_access.html
+
+## Microsoft Excel
+
+- linux_alternatives:
+    Gnumeric: &LinuxGnumeric
+      internal_link: Gnumeric.html
+      url: http://www.gnome.org/projects/gnumeric/
+    KSpread: &LinuxKSpread
+      internal_link: KSpread.html
+      url: http://www.koffice.org/kspread/
+    Open Calc: &LinuxOpenCalc
+      internal_link: Open_Calc.html
+      url: http://www.openoffice.org/product/calc.html
+  windows_software:
+    Microsoft Excel: &WinMicrosoftExcel
+      internal_link: microsoft_excel.html
+
+## Microsoft HyperTerminal
+
+- linux_alternatives:
+    GtkTerm: &LinuxGtkTerm
+      internal_link: GtkTerm.html
+      url: http://freshmeat.net/projects/gtkterm/
+    minicom: &Linuxminicom
+      internal_link: minicom.html
+      url: http://alioth.debian.org/projects/minicom/
+  windows_software:
+    Microsoft HyperTerminal: &WinMicrosoftHyperTerminal
+      internal_link: microsoft_hyperterminal.html
+
+## Microsoft Internet Explorer
+
+- linux_alternatives:
+    Epiphany: &LinuxEpiphany
+      internal_link: Epiphany.html
+      url: http://www.gnome.org/projects/epiphany/
+    Firefox: &LinuxFirefox
+      internal_link: Firefox.html
+      url: http://www.mozilla.com/firefox/
+    Konqueror: &LinuxKonqueror
+      internal_link: Konqueror.html
+      url: http://www.konqueror.org/
+    Opera: &LinuxOpera
+      internal_link: Opera.html
+      url: http://www.opera.com/download/
+  windows_software:
+    Microsoft Internet Explorer: &WinInternetExplorer
+      internal_link: microsoft_internet_explorer.html
+
+## Microsoft Money
+
+- linux_alternatives:
+    GNUcash: &LinuxGNUcash
+      internal_link: GNUcash.html
+      url: http://www.gnucash.org/
+    Gnofin: &LinuxGnofin
+      internal_link: Gnofin.html
+      url: http://gnofin.sourceforge.net/
+    Grisbi: &LinuxGrisbi
+      internal_link: Grisbi.html
+      url: http://www.grisbi.org/
+    KMyMoney: &LinuxKMyMoney
+      internal_link: KMyMoney.html
+      url: http://kmymoney2.sourceforge.net/
+    Skrooge: &LinuxSkrooge
+      internal_link: skrooge.html
+      url: http://skrooge.org/
+    HomeBank: &LinuxHomeBank
+      internal_link: homebank.html
+      url: http://homebank.free.fr/
+  windows_software:
+    Microsoft Money: &WinMicrosoftMoney
+      internal_link: microsoft_money.html
+    Quicken: &WinQuicken
+      internal_link: quicken.html
+
+
+## Microsoft Office
+
+- linux_alternatives:
+    GNOME Office: &LinuxGNOMEOffice
+      internal_link: GNOME_Office.html
+      url: http://www.gnome.org/gnome-office/
+    KOffice: &LinuxKOffice
+      internal_link: KOffice.html
+      url: http://www.koffice.org/
+    OpenOffice: &LinuxOpenOffice
+      internal_link: OpenOffice.html
+      url: http://www.openoffice.org/
+  windows_software:
+    Microsoft Office: &WinMicrosoftOffice
+      internal_link: microsoft_office.html
+
+## Microsoft Outlook (Express)
+
+- linux_alternatives:
+    Evolution: &LinuxEvolution
+      internal_link: Evolution.html
+      url: http://www.gnome.org/projects/evolution/
+    Thunderbird: &LinuxThunderbird
+      internal_link: Thunderbird.html
+      url: http://www.mozilla.com/thunderbird/
+  windows_software:
+    Microsoft Outlook (Express): &WinMicrosoftOutlookExpress
+      internal_link: microsoft_outlook_express.html
+
+## Microsoft Powerpoint
+
+- linux_alternatives:
+    KPresenter: &LinuxKPresenter
+      internal_link: KPresenter.html
+      url: http://www.koffice.org/kpresenter/
+    Open Office Impress: &LinuxOpenOfficeImpress
+      internal_link: Open_Office_Impress.html
+      url: http://www.openoffice.org/product/impress.html
+    EASE Presentation Editor:
+      internal_link: ease-presentation-editor.html
+      url: http://www.ease-project.org/index.html
+  windows_software:
+    Microsoft Powerpoint: &WinMicrosoftPowerpoint
+      internal_link: microsoft_powerpoint.html
+
+## Microsoft Project
+
+- linux_alternatives:
+    GanttProject: &LinuxGanttProject
+      internal_link: GanttProject.html
+      url: http://ganttproject.sourceforge.net/
+    KPlato: &LinuxKPlato
+      internal_link: KPlato.html
+      url: http://www.koffice.org/kplato/
+    OpenProj: &LinuxOpenProj
+      internal_link: OpenProj.html
+      url: http://openproj.org/openproj
+    Planner: &LinuxPlanner
+      internal_link: Planner.html
+      url: http://live.gnome.org/Planner
+    TaskJuggler: &LinuxTaskJuggler
+      internal_link: TaskJuggler.html
+      url: http://www.taskjuggler.org/
+  windows_software:
+    Microsoft Project: &WinMicrosoftProject
+      internal_link: microsoft_project.html
+
+
+## Microsoft Visio
+
+- linux_alternatives:
+    Dia: &LinuxDia
+      internal_link: Dia.html
+      url: http://www.gnome.org/projects/dia/
+    Kivio: &LinuxKivio
+      internal_link: Kivio.html
+      url: http://www.koffice.org/kivio/
+  windows_software:
+    Microsoft Visio: &WinMicrosoftVisio
+      internal_link: microsoft_visio.html
+
+## Microsoft Windows Media Center
+
+- linux_alternatives:
+## Note:  Changed names to: moovida.com
+#    Elisa Media Center: &LinuxElisaMediaCenter
+#      internal_link: Elisa_Media_Center.html
+#      url: http://www.fluendo.com/elisa/
+    Moovida: &LinuxMoovida
+      internal_link: moovida.html
+      url: http://www.moovida.com 
+    Freevo: &LinuxFreevo
+      internal_link: Freevo.html
+      url: http://freevo.sourceforge.net/
+    LinuxMCE: &LinuxMCE
+      internal_link: LinuxMCE.html
+      url: http://www.linuxmce.com/
+    MythTV: &LinuxMythTV
+      internal_link: MythTV.html
+      url: http://www.mythtv.org
+    XBMC Media Center: &LinuxXBMCMediaCenter
+      internal_link: XBMC_Media_Center.html
+      url: http://xbmc.org/
+    Boxee: &LinuxBoxee
+      internal_link: boxee.html
+      url: http://www.boxee.tv/
+  windows_software:
+    Microsoft Windows Media Center: &WinMicroSoftMediaCenter
+      internal_link: microsoft_windows_media_center.html
+
+## Microsoft Word
+
+- linux_alternatives:
+    AbiWord: &LinuxAbiWord
+      internal_link: AbiWord.html
+      url: http://www.abisource.com/
+    Kword: &LinuxKword
+      internal_link: Kword.html
+      url: http://www.koffice.org/kword/
+    Open Office Writer: &LinuxOpenOfficeWriter
+      internal_link: Open_Office_Writer.html
+      url: http://www.openoffice.org/product/writer.html
+  windows_software:
+    Microsoft Word: &LinuxMicrosoftWord
+      internal_link: microsoft_word.html
+
+# Category: IRC Client
+## mIRC
+
+- linux_alternatives:
+    BitchX: &LinuxBitchX
+      internal_link: BitchX.html
+      url: http://www.bitchx.org/
+    'ChatZilla!': &LinuxChatZilla
+      internal_link: ChatZilla.html
+      url: http://chatzilla.hacksrus.com/
+    KVIrc: &LinuxKVIrc
+      internal_link: KVIrc.html
+      url: http://www.kvirc.net/
+    Konversation: &LinuxKonversation
+      internal_link: Konversation.html
+      url: http://konversation.kde.org/
+    Pidgin: &LinuxPidgin
+      internal_link: Pidgin.html
+      url: http://pidgin.im
+    Xchat: &LinuxXchat
+      internal_link: Xchat.html
+      url: http://www.xchat.org/
+    irssi: &Linuxirssi
+      internal_link: irssi.html
+      url: http://www.irssi.org/
+  windows_software:
+    mIRC: &WinmIRC
+      internal_link: mirc.html
+
+## Mp3Tag
+
+- linux_alternatives:
+    Audio Tag Tool: &LinuxAudioTagTool
+      internal_link: Audio_Tag_Tool.html
+      url: http://pwp.netcabo.pt/paol/tagtool/
+    Cowbell: &LinuxCowbell
+      internal_link: Cowbell.html
+      url: http://more-cowbell.org/
+    EasyTAG: &LinuxEasyTAG
+      internal_link: EasyTAG.html
+      url: http://easytag.sourceforge.net/
+    Kid3: &LinuxKid3
+      internal_link: Kid3.html
+      url: http://kid3.sourceforge.net/
+    Pinkytagger: &LinuxPinkytagger
+      internal_link: Pinkytagger.html
+      url: http://pinkytagger.sourceforge.net/
+  windows_software:
+    Mp3tag: &WinMp3tag
+      internal_link: mp3tag.html
+
+## MSN Messenger
+
+- linux_alternatives:
+    Kopete: &LinuxKopete
+      internal_link: Kopete.html
+      url: http://kopete.kde.org/
+    Mercury Messenger: &LinuxMercuryMessenger
+      internal_link: Mercury_Messenger.html
+      url: http://www.mercury.to/
+    Pidgin: &LinuxPidgin
+      internal_link: Pidgin.html
+      url: http://pidgin.im
+    aMSN: &LinuxaMSN
+      internal_link: aMSN.html
+      url: http://amsn-project.net/
+  windows_software:
+    MSN messenger: &WinMSNmessenger
+      internal_link: msn_messenger.html
+
+# Category: CD/DVD Burning 
+## Nero Burning Rom
+
+- linux_alternatives:
+    Brasero: &LinuxBrasero
+      internal_link: Brasero.html
+      url: http://perso.orange.fr/bonfire/index.htm
+    GnomeBaker: &LinuxGnomeBaker
+      internal_link: GnomeBaker.html
+      url: http://gnomebaker.sourceforge.net/
+    'Graveman!': &LinuxGraveman
+      internal_link: Graveman.html
+      url: http://graveman.tuxfamily.org/
+    K3b: &LinuxK3b
+      internal_link: K3b.html
+      url: http://www.k3b.org/
+    'X-CD-Roast': &LinuxXCDRoast
+      internal_link: XCDRoast.html
+      url: http://www.xcdroast.org/
+  windows_software:
+    Nero Burning Rom: &WinNeroBurningRom
+      internal_link: nero_burning_rom.html
+
+## NetMeeting
+
+- linux_alternatives:
+    Ekiga: &LinuxEkiga
+      internal_link: Ekiga.html
+      url: http://www.gnomemeeting.org/
+  windows_software:
+    NetMeeting:  &WinNetMeeting
+      internal_link: netmeeting.html
+
+## NetStumbler
+
+- linux_alternatives:
+    Kismet: &LinuxKismet
+      internal_link: Kismet.html
+      url: http://www.kismetwireless.net/
+    SWScanner: &LinuxSWScanner
+      internal_link: SWScanner.html
+      url: http://www.swscanner.org/
+  windows_software:
+    NetStumbler: &WinNetStumbler
+      internal_link: netstumbler.html
+
+## NewzCrawler
+
+- linux_alternatives:
+    Akregator: &LinuxAkregator
+      internal_link: Akregator.html
+      url: http://akregator.kde.org/
+    BasKet: &LinuxBasKet
+      internal_link: BasKet.html
+      url: http://basket.kde.org/
+    Blam: &LinuxBlam
+      internal_link: Blam.html
+      url: http://www.cmartin.tk/blam.html
+    Liferea: &LinuxLiferea
+      internal_link: Liferea.html
+      url: http://liferea.sourceforge.net/
+    RSSOwl: &LinuxRSSOwl
+      internal_link: RSSOwl.html
+      url: http://www.rssowl.org/
+    Straw: &LinuxStraw
+      internal_link: Straw.html
+      url: http://www.gnome.org/projects/straw/
+  windows_software:
+    NewzCrawler: &WinNewzCrawler
+      internal_link: newzcrawler.html
+
+## Notepad
+
+- linux_alternatives:
+    Kate: &LinuxKate
+      internal_link: Kate.html
+      url: http://kate-editor.org/
+    NEdit: &LinuxNEdit
+      internal_link: NEdit.html
+      url: http://www.nedit.org/
+    Scribes: &LinuxScribes
+      internal_link: Scribes.html
+      url: http://scribes.sourceforge.net/
+    gedit: &Linuxgedit
+      internal_link: gedit.html
+      url: http://www.gnome.org/projects/gedit/
+    jEdit: &LinuxjEdit
+      internal_link: jEdit.html
+      url: http://www.jedit.org/
+    leafpad: &Linuxleafpad
+      internal_link: leafpad.html
+      url: http://tarot.freeshell.org/leafpad/
+    tpad: &Linuxtpad
+      internal_link: tpad.html
+      url: http://tclpad.sourceforge.net/
+  windows_software:
+    Notepad: &WinNotepad
+      internal_link: notepad.html
+
+## OrangeCD Catalog
+
+- linux_alternatives:
+    GWhere: &LinuxGWhere
+      internal_link: GWhere.html
+      url: http://www.gwhere.org
+  windows_software:
+    OrangeCD Catalog: &WinOrangeCDCatalog
+      internal_link: orangecd_catalog.html
+
+## Origin
+
+- linux_alternatives:
+    SciGraphica: &LinuxSciGraphica
+      internal_link: SciGraphica.html
+      url: http://scigraphica.sourceforge.net/
+  windows_software:
+    Origin: &WinOrigin
+      internal_link: origin.html
+
+## Partition Magic
+
+- linux_alternatives:
+    GParted: &LinuxGParted
+      internal_link: GParted.html
+      url: http://gparted.sourceforge.net/
+    Partimage: &LinuxPartimage
+      internal_link: Partimage.html
+      url: http://www.partimage.org/Main_Page
+    QtParted: &LinuxQtParted
+      internal_link: QtParted.html
+      url: http://qtparted.sourceforge.net
+    Palimpsest:
+      internal_link: palimpsest.html
+      url: http://library.gnome.org/users/palimpsest/
+  windows_software:
+    Partition Magic: &WinPartitionMagic
+      internal_link: partition_magic.html
+
+# Category: Audio
+# Sub Category: Digtial Audio Workstation (DAW)
+## Protools
+
+- linux_alternatives:
+    Ardour: &LinuxArdour
+      internal_link: Ardour.html
+      url: http://www.ardour.org
+    LMMS: &LinuxLMMS
+      internal_link: LMMS.html
+      url: http://lmms.sourceforge.net/
+    Jokosher: &LinuxJokosher
+      internal_link: jokosher.html
+      url: http://www.jokosher.org/
+  windows_software:
+    Pro Tools: &WinProTools
+      internal_link: pro_tools.html
+    FL Studio: &WinFLStudio
+      internal_link: FL_Studio.html
+
+## SoulSeek
+
+- linux_alternatives:
+    Nicotine: &LinuxNicotine
+      internal_link: Nicotine.html
+      url: http://nicotine.thegraveyard.org/
+    Nicotine-Plus: &LinuxNicotinePlus
+      internal_link: NicotinePlus.html
+      url: http://nicotine-plus.sourceforge.net/
+  windows_software:
+    SoulSeek: &WinSoulSeek
+      internal_link: soulseek.html
+
+## SoundForge
+
+- linux_alternatives:
+    ReZound: &LinuxReZound
+      internal_link: ReZound.html
+      url: http://rezound.sourceforge.net/
+  windows_software:
+    SoundForge: &WinSoundForge
+      internal_link: soundforge.html
+
+## Total Commander
+
+- linux_alternatives:
+    GNOME Commander: &LinuxGNOMECommander
+      internal_link: GNOME_Commander.html
+      url: http://www.nongnu.org/gcmd/
+    Krusader: &LinuxKrusader
+      internal_link: Krusader.html
+      url: http://krusader.sourceforge.net/
+    Midnight Commander: &LinuxMidnightCommander
+      internal_link: Midnight_Commander.html
+      url: http://www.ibiblio.org/mc/
+    Tux Commander: &LinuxTuxCommander
+      internal_link: Tux_Commander.html
+      url: http://tuxcmd.sourceforge.net/
+    xfe: &Linuxxfe
+      internal_link: xfe.html
+      url: http://roland65.free.fr/xfe/
+  windows_software:
+    Total Commander: &WinTotalCommander
+      internal_link: total_commander.html
+
+## Traktor DJ
+
+- linux_alternatives:
+    Mixxx: &LinuxMixxx
+      internal_link: Mixxx.html
+      url: http://mixxx.sourceforge.net/
+    terminatorX: &LinuxterminatorX
+      internal_link: terminatorX.html
+      url: http://www.terminatorx.org/
+  windows_software:
+    Traktor DJ: &WinTracktorDJ
+      internal_link: traktor_dj.html
+
+## Videra
+
+- linux_alternatives:
+    thin liquid film: &Linuxthinliquidfilm
+      internal_link: thin_liquid_film.html
+      url: http://thinliquidfilm.org/
+  windows_software:
+    Videora: &WinVideora
+      internal_link: videora.html
+
+## Winamp
+
+- linux_alternatives:
+    Amarok: &LinuxAmarok
+      internal_link: Amarok.html
+      url: http://amarok.kde.org/
+    Audacious: &LinuxAudacious
+      internal_link: Audacious.html
+      url: http://audacious-media-player.org/Main_Page
+    XMMS: &LinuxXMMS
+      internal_link: XMMS.html
+      url: http://www.xmms.org/
+  windows_software:
+    Winamp: &WinWinamp
+      internal_link: winamp.html
+      url: http://www.winamp.com
+
+## Windows Media Player
+
+- linux_alternatives:
+
+    KPlayer: &LinuxKPlayer
+      internal_link: KPlayer.html
+      url: http://kplayer.sourceforge.net/
+    VLC Player: &LinuxVLCPlayer
+      internal_link: VideoLAN.html
+      url: http://www.videolan.org/vlc/
+      status: active 
+    mplayer: &Linuxmplayer
+      internal_link: mplayer.html
+      url: http://www.mplayerhq.hu/design7/news.html
+    xine: &Linuxxine
+      internal_link: xine.html
+      url: http://xinehq.de/
+  windows_software:
+    Windows Media Player: &WinMediaPlayer
+      internal_link: windows_media_player.html
+
+## WinISO
+
+- linux_alternatives:
+    # Note:  ISO Master is a paid app now?
+    #ISO Master:
+    #  internal_link: ISO_Master.html
+    #  url: http://littlesvr.ca/isomaster/
+    KIso: &LinuxKIso
+      internal_link: KIso.html
+      url: http://kiso.sourceforge.net/
+  windows_software:
+    WinIso: &WinWinIso
+      internal_link: winiso.html
+
+## WinMerge
+
+- linux_alternatives:
+    KDiff3: &LinuxKDiff3
+      internal_link: KDiff3.html
+      url: http://kdiff3.sourceforge.net/
+    Kile: &LinuxKile
+      internal_link: Kile.html
+      url: http://kile.sourceforge.net/
+    Meld: &LinuxMeld
+      internal_link: Meld.html
+      url: http://meld.sourceforge.net/
+    xxdiff: &Linuxxxdiff
+      internal_link: xxdiff.html
+      url: http://furius.ca/xxdiff/
+  windows_software:
+    WinMerge: &WinWinMerge
+      internal_link: winmerge.html
+
+## WinTV
+
+- linux_alternatives:
+    XdTV: &LinuxXdTV
+      internal_link: XdTV.html
+      url: http://xawdecode.sourceforge.net/
+    tvtime: &Linuxtvtime
+      internal_link: tvtime.html
+      url: http://tvtime.sourceforge.net/
+    xawtv: &Linuxxawtv
+      internal_link: xawtv.html
+      url: http://linux.bytesex.org/xawtv/
+    Zapping: &LinuxZapping
+      internal_link: zapping.html
+      url: http://zapping.sourceforge.net/Zapping/index.html
+    KWinTV: &LinuxKWinTV
+      internal_link: kwintv.html
+      url: http://www.kwintv.org/
+  windows_software:
+    WinTV: &WinWinTV
+      internal_link: wintv.html
+
+## WS_FTP
+
+- linux_alternatives:
+    FireFTP: &LinuxFireFTP
+      internal_link: FireFTP.html
+      url: http://fireftp.mozdev.org/
+    gFTP: &LinuxgFTP
+      internal_link: gFTP.html
+      url: http://gftp.seul.org/
+  windows_software:
+    WS_FTP: &WinWSFTP
+      internal_link: ws_ftp.html
+
+## Zbrush
+
+- linux_alternatives:
+    SharpConstruct: &LinuxSharpConstruct
+      internal_link: SharpConstruct.html
+      #url: http://sharp3d.sourceforge.net
+      url: http://sourceforge.net/projects/sharp3d/
+  windows_software:
+    Zbrush: &WinZbrush
+      internal_link: zbrush.html
+    Mudbox: &WinMudbox
+      internal_link: mudbox.html
+
+## ZoneAlarm
+
+- linux_alternatives:
+    Firestarter: &LinuxFirestarter
+      internal_link: Firestarter.html
+      url: http://www.fs-security.com/
+    Guarddog: &LinuxGuarddog
+      internal_link: Guarddog.html
+      url: http://www.simonzone.com/software/guarddog/
+  windows_software:
+    ZoneAlarm: &WinZoneAlarm
+      internal_link: zonealarm.html
+
+## Category: Screen Capture
+## Snagit.
+
+- linux_alternatives:
+    Shutter: &LinuxShutter
+      internal_link: shutter.html
+      url: http://shutter-project.org/    
+      rss_feed: http://shutter-project.org/feed/
+      description:  Shutter is a feature-rich screenshot program. You can take a screenshot of a specific area, window, your whole screen, or even of a website.
+      license: GPL
+      
+  windows_software:
+    Snagit: &WinSnagIt
+      internal_link: snagit.html
+      url: http://www.techsmith.com/screen-capture.asp
+    Zscreen: &WinZscreen
+      internal_link: zscreen.html
+      url: https://code.google.com/p/zscreen/
+
+
+## Fraps
+## Game capture, video capture.
+
+- linux_alternatives:
+    Yukon: &LinuxYukon
+      internal_link: yukon.html
+      url: https://github.com/wereHamster/yukon/   
+    recordMyDesktop: &LinuxrecordMyDesktop
+      internal_link: recordmydesktop.html
+      url: http://recordmydesktop.sourceforge.net/
+  windows_software:
+    Fraps: &WinFraps
+      internal_link: fraps.html
+      url: http://www.fraps.com/
+
+## Exif Editor, Picture Meta Data Editor.
+
+- linux_alternatives:
+    FotoTagger: &LinuxFotoTagger
+      internal_link: fototagger.html
+      url: http://sourceforge.net/projects/fototagger/   
+  windows_software:
+    PhotoME: &WinPhotoME
+      internal_link: photome.html
+      url: http://www.photome.de/ 
+
+# Evernote
+
+- category: 
+   - Note-to-self
+   - Note taking 
+  linux_alternatives:
+    Tomboy: &LinuxTomboy
+      internal_link: tomboy.html
+      url: http://live.gnome.org/Tomboy/   
+    Zim: &LinuxZim
+      internal_link: zim.html 
+      url: http://zim-wiki.org/   
+    QuickFox Notes: &LinuxQuickFoxNotes
+      internal_link: quickfox_notes.html 
+      url: https://addons.mozilla.org/en-US/firefox/addon/13572/   
+    BasKet: &LinuxBasKet
+      internal_link: BasKet.html
+      url: http://basket.kde.org/
+    Chandler:
+      internal_link: chandler.html
+      url: http://chandlerproject.org/  
+  windows_software:
+    Evernote: &WinEvernote
+      internal_link: evernote.html
+      url: http://www.evernote.com/
+    Microsoft OneNote: &WinMicrosoftOneNote
+      internal_link: microsoft_onenote.html
+    ActionOutline:
+      internal_link: action-outline.html
+    Ecco Pro:
+      internal_link: ecco-pro.html
+      url: http://www.compusol.org/ecco/
+
+# Twitter Clients 
+
+- category: Twitter
+  linux_alternatives:
+    Pino: &LinuxPino
+      internal_link: pino.html
+      url: http://pino-app.appspot.com/ 
+    Choqok: &LinuxChoqok
+      internal_link: choqok.html
+      url: http://choqok.gnufolks.org/
+    Gwibber: &LinuxGwibber
+      internal_link: gwibber.html
+      url: http://gwibber.com/
+  windows_software:
+    TweetDeck: &WinTweetDeck
+      internal_link: tweetdeck.html
+      url: http://www.tweetdeck.com/
+
+
+# Photo Workflow Application
+
+- category: Photo Workflow Management 
+  linux_alternatives:
+    Darktable: &LinuxDarktable
+      internal_link: darktable.html
+      url: http://darktable.sourceforge.net/
+  windows_software:
+    Adobe Lightroom: &WinAdobeLightroom
+      internal_link: adobe-lightroom.html
+
+# uTorrent, time windows/MAC torrent client
+
+- category: Torrent 
+  linux_alternatives:
+    Transmission: &LinuxTransmission
+      internal_link: transmission.html
+      url: http://www.transmissionbt.com/
+    qBittorrent: &LinuxqBittorrent 
+      internal_link: qbittorrent.html
+      url: http://qbittorrent.sourceforge.net/
+  windows_software:
+    uTorrent: &WinuTorrent
+      internal_link: utorrent.html
+      url: http://www.utorrent.com/
+
+- category: 
+    - Drawing 
+  linux_alternatives:
+    TuxPaint: &LinuxTuxPaint
+      internal_link: tuxpaint.html
+      url: http://tuxpaint.org/
+    Pencil: &LinuxPencil
+      internal_link: pencil.html
+      url: http://www.pencil-animation.org/
+    KolourPaint: &LinuxKolourPaint    
+      internal_link: kolourpaint.html
+      url: http://kolourpaint.sourceforge.net/
+    Pinta: &LinuxPinta
+      internal_link: pinta.html
+      url: http://pinta-project.com/
+  windows_software:
+    MS Paint: &WinMSPaint
+      internal_link: ms-paint.html
+
+- category: NFO-viewer
+  linux_alternatives:
+    NFO Viewer:  
+      internal_link: nfo-viewer.html
+      url: http://home.gna.org/nfoview/ 
+  windows_software:
+    DAMN NFO Viewer:
+      internal_link: damn-nfo-viewer.html
