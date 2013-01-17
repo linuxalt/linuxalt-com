@@ -526,7 +526,7 @@
       internal_link: decibel-audio-player.html
       url: http://decibel.silent-blade.org/
     gmusicbrowser:
-#     internal_link: gmusicbrowser.html
+      internal_link: gmusicbrowser.html
       url: http://gmusicbrowser.org/
   windows_software:
     iTunes: &WiniTunes
