@@ -314,6 +314,9 @@
 ## Dreamweaver
 
 - linux_alternatives:
+    Aptana: &LinuxAptana
+      internal_link: Aptana.html
+      url: http://aptana.com/
     Bluefish: &LinuxBluefish
       internal_link: Bluefish.html
       url: http://bluefish.openoffice.nl/index.html
