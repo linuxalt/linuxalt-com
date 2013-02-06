@@ -1,7 +1,7 @@
 require 'yaml'
 
 module Jekyll
-  class AltPages < Generator
+  class WinPages < Generator
   safe false
 
     def generate(site)
