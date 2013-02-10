@@ -314,6 +314,9 @@
 ## Dreamweaver
 
 - linux_alternatives:
+    Aptana: &LinuxAptana
+      internal_link: Aptana.html
+      url: http://aptana.com/
     Bluefish: &LinuxBluefish
       internal_link: Bluefish.html
       url: http://bluefish.openoffice.nl/index.html
@@ -571,6 +574,9 @@
 ## Microsoft Access
 
 - linux_alternatives:
+    LibreOffice Base: &LinuxLibreBase
+      internal_link: Libre_Office.html
+      url: http://www.libreoffice.org/
     GNOME-DB: &LinuxGNOMEDB
       internal_link: GNOMEDB.html
       url: http://www.gnome-db.org/
@@ -584,6 +590,9 @@
 ## Microsoft Excel
 
 - linux_alternatives:
+    LibreOffice Calc: &LinuxLibreCalc
+      internal_link: Libre_Office.html
+      url: http://www.libreoffice.org/
     Gnumeric: &LinuxGnumeric
       internal_link: Gnumeric.html
       url: http://www.gnome.org/projects/gnumeric/
@@ -657,6 +666,9 @@
 ## Microsoft Office
 
 - linux_alternatives:
+    LibreOffice: &LinuxLibreOffice
+      internal_link: Libre_Office.html
+      url: http://www.libreoffice.org/
     GNOME Office: &LinuxGNOMEOffice
       internal_link: GNOME_Office.html
       url: http://www.gnome.org/gnome-office/
@@ -683,6 +695,9 @@
 ## Microsoft Powerpoint
 
 - linux_alternatives:
+    LibreOffice Impress: &LinuxLibreImpress
+      internal_link: Libre_Office.html
+      url: http://www.libreoffice.org/
     Open Office Impress: &LinuxOpenOfficeImpress
       internal_link: Open_Office_Impress.html
       url: http://www.openoffice.org/product/impress.html
@@ -755,6 +770,9 @@
 ## Microsoft Word
 
 - linux_alternatives:
+    LibreOffice Writer: &LinuxLibreWriter
+      internal_link: Libre_Office.html
+      url: http://www.libreoffice.org/
     AbiWord: &LinuxAbiWord
       internal_link: AbiWord.html
       url: http://www.abisource.com/
