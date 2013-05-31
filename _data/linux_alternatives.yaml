@@ -1303,6 +1303,9 @@
     Gwibber: &LinuxGwibber
       internal_link: gwibber.html
       url: http://gwibber.com/
+    Hotot: &LinuxHotot
+      internal_link: hotot.html
+      url: http://www.hotot.org/features/
   windows_software:
     TweetDeck: &WinTweetDeck
       internal_link: tweetdeck.html
