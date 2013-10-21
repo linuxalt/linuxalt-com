@@ -66,10 +66,9 @@
     Evince: &LinuxEvince
       internal_link: Evince.html
       url: http://www.gnome.org/projects/evince/
-## Dead home page?
-#    KPDF: &LinuxKPDF
-#      internal_link: KPDF.html
-#      url: http://kpdf.kde.org/
+    KPDF: &LinuxKPDF
+     internal_link: KPDF.html
+     url: http://kpdf.kde.org/
     Xpdf: &LinuxXpdf
       internal_link: Xpdf.html
       url: http://www.foolabs.com/xpdf/
@@ -582,7 +581,7 @@
       url: http://www.gnome-db.org/
     knoda: &Linuxknoda
       internal_link: knoda.html
-      url: http://www.knoda.org
+      url: http://knoda.sourceforge.net/
   windows_software:
     Microsoft Access: &WinMicrosoftAccess
       internal_link: microsoft_access.html
@@ -1091,6 +1090,12 @@
     XMMS: &LinuxXMMS
       internal_link: XMMS.html
       url: http://www.xmms.org/
+    Musique: &LinuxMusique
+      internal_link: Musique.html
+      url: http://flavio.tordini.org/musique
+    Qmmp: &LinuxQmmp
+      internal_link: Qmmp.html
+      url: http://qmmp.ylsoftware.com/
   windows_software:
     Winamp: &WinWinamp
       internal_link: winamp.html
