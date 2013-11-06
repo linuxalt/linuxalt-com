@@ -1338,6 +1338,9 @@
 
 - category: Torrent 
   linux_alternatives:
+    Deluge: &LinuxDeluge
+      internal_link: deluge.html
+      url: http://deluge-torrent.org
     Transmission: &LinuxTransmission
       internal_link: transmission.html
       url: http://www.transmissionbt.com/
