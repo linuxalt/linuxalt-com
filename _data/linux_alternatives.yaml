@@ -733,6 +733,9 @@
     Dia: &LinuxDia
       internal_link: Dia.html
       url: http://www.gnome.org/projects/dia/
+    yEd: &LinuxyEd
+      internal_link: yEd.html
+      url: http://www.yworks.com/en/products_yed_about.html
   windows_software:
     Microsoft Visio: &WinMicrosoftVisio
       internal_link: microsoft_visio.html
