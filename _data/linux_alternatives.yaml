@@ -530,6 +530,9 @@
     gmusicbrowser:
       internal_link: gmusicbrowser.html
       url: http://gmusicbrowser.org/
+    Musique:
+      internal_link: musique.html
+      url: http://flavio.tordini.org/musique
   windows_software:
     iTunes: &WiniTunes
       internal_link: itunes.html
