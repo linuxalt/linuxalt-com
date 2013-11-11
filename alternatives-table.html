@@ -5,5 +5,23 @@ change_frequency: weekly
 
       <div class="span-18" id="alternatives-table">
        <h2>Alternatives</h2>
-        {% include alternative-table.html %}
+
+    <table>
+    {% for a in page.alts %}
+     <tr>
+      <td class="windows-software">
+       <a
+    href="/linux-alternatives-to/windows/{{a.win_internal_url}}">{{a.win_software | sort}}</a>
+      </td>
+      <td>
+        <ul>
+    {% for l in a.linux_alternatives %}
+          <li> <a href="/linux-software/{{ l.internal_link }}">{{ l.name }}</a> (<a href="{{ l.url }}" target="_new">{{ l.url }}</a>)
+    {% endfor %}
+        </ul>
+      </td>
+     </tr>
+    {% endfor %}
+    </table>
+
       </div>
