@@ -1074,6 +1074,26 @@
     Traktor DJ: &WinTracktorDJ
       internal_link: traktor_dj.html
 
+## Ultra Edit
+
+- linux_alternatives:
+    JEdit: &LinuxJEdit
+      internal_link: jedit.html
+      url: http://www.jedit.org/
+    QuantaPlus: &LinuxQuantaPlus
+      internal_link: quanta_plus.html
+      url: http://quanta.kdewebdev.org/
+    Emacs: &LinuxEmacs
+      internal_link: emacs.html
+      url: https://www.gnu.org/software/emacs/
+    VIM: &LinuxVIM
+      internal_link: vim.html
+      url: http://www.vim.org/
+  windows_software:
+    Ultra Edit: &WinUltraEdit
+      internal_link: ultra_edit.html
+      url: http://www.ultraedit.com/
+
 ## Videra
 
 - linux_alternatives:
