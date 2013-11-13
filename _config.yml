@@ -6,4 +6,4 @@ pygments: true
 markdown: maruku
 permalink: /:categories/:year/:title.html 
 
-exclude: ['README.md', 'LICENSE.md', '.gitignore', '.git']
+exclude: ['README.md', 'LICENSE.md', '.gitignore', '.git', 'Rakefile']
