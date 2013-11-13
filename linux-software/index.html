@@ -3,5 +3,14 @@ layout: default
 ---
 <h1>Linux Software Index</h1>
 <div id="software-list">
-   {% include software-index.html %}
+{% for keys in page.software  %}
+   <blockquote>   
+    <h2> {{ keys[0] | upcase }} </h2> 
+    <ul>
+ {% for l in keys[1] %}
+      <li><a href="/linux-software/{{ l.internal_link }}">{{ l.name }}</a>
+ {% endfor %}
+    </ul>
+  </blockquote>
+{% endfor %}
 </div>
