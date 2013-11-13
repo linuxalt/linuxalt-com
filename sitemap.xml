@@ -20,5 +20,4 @@ site_pages:
   <changefreq>hourly</changefreq>
 </url>
 {% endfor %}
-{% include sitemap.html %}
 </urlset>
