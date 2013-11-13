@@ -83,7 +83,7 @@ module Jekyll
             alts = return_alternatives
 
             alt_data = Array.new()
-            # First, create a structure that we dump to each page, with some good information for the visitor.
+            all_linux_software = Hash.new()
 
             alts.each { |d|
                 similar = Array.new()
@@ -100,12 +100,21 @@ module Jekyll
                 }
 
                 d['linux_alternatives'].each_key { |linux|
-
+                    
                     page = LinuxPage.new(site, site.source, "linux-software", d['linux_alternatives'][linux]['internal_link'])
                     page.name(linux) 
                     page.title(linux) 
                     page.projecturl(d['linux_alternatives'][linux]['url'])
                     page.internal_link(d['linux_alternatives'][linux]['internal_link'])
+
+                
+                    # For the linux index page.    
+                    linux_hash = Hash.new()
+                    first_chr = linux[0].chr.downcase
+                    all_linux_software[first_chr] ||= Array.new
+                    linux_hash['name'] = linux
+                    linux_hash['internal_link'] = d['linux_alternatives'][linux]['internal_link']
+                    all_linux_software[first_chr].push( linux_hash )
 
                     similar.each { |s|
 
@@ -150,7 +159,9 @@ module Jekyll
             # inject the alternatve data into /alternatives-table.html
             table_page = site.pages.detect {|page| page.url == '/alternatives-table.html'}
             table_page.data['alts'] = alt_data
-
+        
+            linux_index_page = site.pages.detect {|page| page.url == '/linux-software/index.html'}
+            linux_index_page.data['software'] = all_linux_software.sort
         end
 
         private
