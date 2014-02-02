@@ -388,9 +388,6 @@
 ## Finale
 
 - linux_alternatives:
-    Brahms: &LinuxBrahms
-      internal_link: Brahms.html
-      url: http://brahms.sourceforge.net/
     Denemo: &LinuxDenemo
       internal_link: Denemo.html
       url: http://denemo.sourceforge.net/index.html
