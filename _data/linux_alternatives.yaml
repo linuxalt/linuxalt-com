@@ -530,7 +530,7 @@
     Musique:
       internal_link: musique.html
       url: http://flavio.tordini.org/musique
-    deadbeef: &Winfoobar2000
+    deadbeef:
       internal_link: deadbeef.html
       url: http://deadbeef.sourceforge.net/
   windows_software:
@@ -1102,7 +1102,7 @@
     Qmmp: &LinuxQmmp
       internal_link: Qmmp.html
       url: http://qmmp.ylsoftware.com/
-    deadbeef: &WinWinamp                                                                                                  
+    deadbeef:
       internal_link: deadbeef.html
       url: http://deadbeef.sourceforge.net/
   windows_software:
