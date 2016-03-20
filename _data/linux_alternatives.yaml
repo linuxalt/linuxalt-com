@@ -491,6 +491,9 @@
     Amarok: &LinuxAmarok
       internal_link: Amarok.html
       url: http://amarok.kde.org/
+    Clementine: &LinuxClementine
+        internal_link: Clementine.html
+        url: https://www.clementine-player.org/
     Banshee: &LinuxBanshee
       internal_link: Banshee.html
       url: http://banshee-project.org/Main_Page
@@ -1110,6 +1113,34 @@
       internal_link: winamp.html
       url: http://www.winamp.com
 
+## Windows Defender
+
+- linux_alternatives:
+
+    ClamTK: &LinuxClamTK
+      internal_link: ClamTK.html
+      url: http://clamtk.sourceforge.net/
+    Bitdefender Antivirus Scanner for Unices: &LinuxBitdefender
+      internal_link: Bitdefender.html
+      url: http://www.bitdefender.com/business/antivirus-for-unices.html
+    Sophos Linux Malware Scanner: &LinuxSophos
+      internal_link: Sophos.html
+      url: https://www.sophos.com/en-us/products/free-tools/sophos-antivirus-for-linux.aspx
+  windows_software:
+    Windows Defender: &WinDefender
+      internal_link: windows_defender.html
+
+## Windows Firewall
+
+- linux_alternatives:
+
+    Uncomplicated Firewall (ufw): &Linuxufw
+      internal_link: ufw.html
+      url: https://launchpad.net/ufw
+  windows_software:
+    Windows Firewall: &WinFirewall
+      internal_link: windows_firewall.html
+
 ## Windows Media Player
 
 - linux_alternatives:
@@ -1117,6 +1148,9 @@
     KPlayer: &LinuxKPlayer
       internal_link: KPlayer.html
       url: http://kplayer.sourceforge.net/
+    Kaffeine: &LinuxKaffeine
+      internal_link: Kaffeine.html
+      url: https://sourceforge.net/projects/kaffeine/
     VLC Player: &LinuxVLCPlayer
       internal_link: VideoLAN.html
       url: http://www.videolan.org/vlc/
@@ -1124,6 +1158,9 @@
     mplayer: &Linuxmplayer
       internal_link: mplayer.html
       url: http://www.mplayerhq.hu/design7/news.html
+    SMPlayer: &LinuxSMPlayer
+      internal_link: SMplayer.html
+      url: http://www.smplayer.eu/
     xine: &Linuxxine
       internal_link: xine.html
       url: http://xinehq.de/
