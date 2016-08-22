@@ -78,6 +78,8 @@
     okular: &LinuxOkular
       internal_link: okular.html
       url: http://okular.kde.org/
+    Qoppa PDF Studio (Free or Pro) &LinuxPdfStudio
+      url: http://www.qoppa.com/pdfstudio/
   windows_software:
     Adobe Acrobat Reader: &WinAdobeAcrobatReader
       internal_link: adobe_acrobat_reader.html
