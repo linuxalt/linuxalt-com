@@ -732,6 +732,9 @@
     Planner: &LinuxPlanner
       internal_link: Planner.html
       url: http://live.gnome.org/Planner
+    RationalPlan: &LinuxRationalPlan
+      internal_link: RationalPlan.html
+      url: http://www.rationalplan.com/
     TaskJuggler: &LinuxTaskJuggler
       internal_link: TaskJuggler.html
       url: http://www.taskjuggler.org/
