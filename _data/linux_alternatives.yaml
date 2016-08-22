@@ -79,6 +79,7 @@
       internal_link: okular.html
       url: http://okular.kde.org/
     Qoppa PDF Studio (Free or Pro) &LinuxPdfStudio
+      internal_link: qoppa-pdf-studio.html
       url: http://www.qoppa.com/pdfstudio/
   windows_software:
     Adobe Acrobat Reader: &WinAdobeAcrobatReader
@@ -627,7 +628,7 @@
 
 - linux-alternatives:
     Hugin: &LinuxHugin
-      internal_link:Hugin.html
+      internal_link: hugin.html
       url: http://hugin.sourceforge.net/
   windows_software:
     Microsoft Image Composite Editor: &WinImageCompositeEditor
