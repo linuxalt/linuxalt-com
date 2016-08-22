@@ -618,6 +618,16 @@
     Microsoft HyperTerminal: &WinMicrosoftHyperTerminal
       internal_link: microsoft_hyperterminal.html
 
+## Microsoft Image Composite Editor
+
+- linux-alternatives:
+    Hugin: &LinuxHugin
+      internal_link:Hugin.html
+      url: http://hugin.sourceforge.net/
+  windows_software:
+    Microsoft Image Composite Editor: &WinImageCompositeEditor
+    internal_link: microsoft_image_composite_editor    
+    
 ## Microsoft Internet Explorer
 
 - linux_alternatives:
