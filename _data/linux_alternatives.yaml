@@ -957,6 +957,9 @@
     NEdit: &LinuxNEdit
       internal_link: NEdit.html
       url: http://www.nedit.org/
+    Bluefish: &LinuxBluefish
+      internal_link: Bluefish.html
+      url: http://bluefish.openoffice.nl/
     Scribes: &LinuxScribes
       internal_link: Scribes.html
       url: http://scribes.sourceforge.net/
