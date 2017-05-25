@@ -40,7 +40,7 @@
 - linux_alternatives:
     Eye of GNOME: &LinuxEyeofGNOME
       internal_link: Eye_of_GNOME.html
-      url: http://www.gnome.org/projects/eog/
+      url: https://wiki.gnome.org/Apps/EyeOfGnome
     GQview: &LinuxGQview
       internal_link: GQview.html
       url: http://gqview.sourceforge.net/
@@ -78,7 +78,7 @@
     okular: &LinuxOkular
       internal_link: okular.html
       url: http://okular.kde.org/
-    Qoppa PDF Studio (Free or Pro) &LinuxPdfStudio
+    'Qoppa PDF Studio (Free or Pro)': &LinuxPdfStudio
       internal_link: qoppa-pdf-studio.html
       url: http://www.qoppa.com/pdfstudio/
   windows_software:
@@ -626,13 +626,13 @@
 
 ## Microsoft Image Composite Editor
 
-- linux-alternatives:
+- linux_alternatives:
     Hugin: &LinuxHugin
       internal_link: hugin.html
       url: http://hugin.sourceforge.net/
   windows_software:
     Microsoft Image Composite Editor: &WinImageCompositeEditor
-    internal_link: microsoft_image_composite_editor    
+     internal_link: microsoft_image_composite_editor.html 
     
 ## Microsoft Internet Explorer
 

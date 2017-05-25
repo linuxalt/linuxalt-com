@@ -1,8 +1,9 @@
 <table>
-{% for a in alts %}
+{% assign sorted = alts | sort: 'win_software' %}
+{% for a in sorted %}
  <tr>
   <td class="windows-software">
-   <a href="/linux-alternatives-to/windows/{{a.win_internal_url}}">{{a.win_software | sort}}</a>
+   <a href="/linux-alternatives-to/windows/{{a.win_internal_url}}">{{a.win_software}}</a>
   </td>
   <td>
     <ul> 

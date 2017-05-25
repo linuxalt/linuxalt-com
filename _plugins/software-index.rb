@@ -13,9 +13,7 @@ module Jekyll
        all_linux_software = Hash.new()
 
        alts.each { |d|
-
            d['linux_alternatives'].each_key { |linux|
-
                    linux_hash = Hash.new()
 
                    first_chr = linux[0].chr.downcase
@@ -25,7 +23,6 @@ module Jekyll
                    linux_hash['internal_link'] = d['linux_alternatives'][linux]['internal_link']
 
                    all_linux_software[first_chr].push( linux_hash )
-
            }
        }
 
