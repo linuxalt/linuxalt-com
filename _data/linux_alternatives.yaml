@@ -417,7 +417,7 @@
 - linux_alternatives:
     FontForge: &LinuxFontForge
       internal_link: FontForge.html
-      url: http://fontforge.sourceforge.net/
+      url: https://fontforge.github.io/
   windows_software:
     Fontographer: &WinFontographer
       internal_link: fontographer.html
@@ -478,9 +478,9 @@
       internal_link: DGuitar.html
       #url: http://sourceforge.net/projects/dguitar/
       url: http://dguitar.sourceforge.net/
-    TuxGuitar: &LinuxTuxGuitar
-      internal_link: TuxGuitar.html
-      url: http://www.tuxguitar.com.ar/home.html
+    #TuxGuitar: &LinuxTuxGuitar
+    #  internal_link: TuxGuitar.html
+    #  url: http://www.tuxguitar.com.ar/home.html
     kguitar: &Linuxkguitar
       internal_link: kguitar.html
       url: http://sourceforge.net/projects/kguitar/
