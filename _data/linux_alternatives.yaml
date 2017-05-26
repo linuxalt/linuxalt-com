@@ -109,7 +109,7 @@
       url: http://www.xaraxtreme.org/
     sK1 Project: 
       internal_link: sk1-project.html
-      url: https://sk1project.net/ 
+      url: http://sk1project.org/ 
   windows_software:
     Adobe Illustrator: &WinAdobeIllustrator
       internal_link: adobe_illustrator.html
@@ -649,6 +649,9 @@
     Opera: &LinuxOpera
       internal_link: Opera.html
       url: http://www.opera.com/download/
+    Vivaldi: &LinuxVivaldi
+      internal_link: Vivaldi.html
+      url: https://vivaldi.com/
   windows_software:
     Microsoft Internet Explorer: &WinInternetExplorer
       internal_link: microsoft_internet_explorer.html
@@ -758,6 +761,7 @@
     yEd: &LinuxyEd
       internal_link: yEd.html
       url: http://www.yworks.com/en/products_yed_about.html
+    Lucid
   windows_software:
     Microsoft Visio: &WinMicrosoftVisio
       internal_link: microsoft_visio.html
@@ -975,6 +979,9 @@
     tpad: &Linuxtpad
       internal_link: tpad.html
       url: http://tclpad.sourceforge.net/
+    Atom: &LinuxAtom
+      internal_link: Atom.html
+      url: https://atom.io/
   windows_software:
     Notepad: &WinNotepad
       internal_link: notepad.html
@@ -1426,6 +1433,9 @@
     Pinta: &LinuxPinta
       internal_link: pinta.html
       url: http://pinta-project.com/
+    Krita: &LinuxKrita
+      internal_link: Krita.html
+      url: https://krita.org/en/
   windows_software:
     MS Paint: &WinMSPaint
       internal_link: ms-paint.html
