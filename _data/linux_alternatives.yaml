@@ -429,16 +429,6 @@
     Forte Agent: &WinForteAgent
       internal_link: forte_agent.html
 
-## Category:  Music
-## Type: Drum Machines
-
-- linux_alternatives:
-    Hydrogen: &LinuxHydrogen
-      internal_link: Hydrogen.html
-      url: http://www.hydrogen-music.org/
-  windows_software:
-    FruityLoops: &WinFruityLoops
-      internal_link: fruityloops.html
 
 ## Google Desktop Search
 
@@ -1036,6 +1026,9 @@
     Jokosher: &LinuxJokosher
       internal_link: jokosher.html
       url: http://www.jokosher.org/
+    Hydrogen: &LinuxHydrogen
+      internal_link: Hydrogen.html
+      url: http://www.hydrogen-music.org/
   windows_software:
     Pro Tools: &WinProTools
       internal_link: pro_tools.html
