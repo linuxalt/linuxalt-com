@@ -748,7 +748,6 @@
     yEd: &LinuxyEd
       internal_link: yEd.html
       url: http://www.yworks.com/en/products_yed_about.html
-    Lucid
   windows_software:
     Microsoft Visio: &WinMicrosoftVisio
       internal_link: microsoft_visio.html
