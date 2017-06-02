@@ -141,7 +141,7 @@
            title: Five Simple Photo Fixes with digiKam
     Shotwell:
       internal_link: shotwell.html
-      url: http://www.yorba.org/shotwell/
+      url: https://wiki.gnome.org/Apps/Shotwell
     gThumb:
       internal_link: gthumb.html
       url: http://live.gnome.org/gthumb/
