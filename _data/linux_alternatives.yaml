@@ -1208,7 +1208,7 @@
       url: http://kile.sourceforge.net/
     Meld: &LinuxMeld
       internal_link: Meld.html
-      url: http://meld.sourceforge.net/
+      url: http://meldmerge.org/
     xxdiff: &Linuxxxdiff
       internal_link: xxdiff.html
       url: http://furius.ca/xxdiff/
