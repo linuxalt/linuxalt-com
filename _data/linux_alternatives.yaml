@@ -1110,7 +1110,7 @@
       url: http://amarok.kde.org/
     Audacious: &LinuxAudacious
       internal_link: Audacious.html
-      url: http://audacious-media-player.org/Main_Page
+      url: http://audacious-media-player.org/
     XMMS: &LinuxXMMS
       internal_link: XMMS.html
       url: http://www.xmms.org/
