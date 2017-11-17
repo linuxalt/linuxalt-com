@@ -1415,7 +1415,7 @@
       url: http://tuxpaint.org/
     Pencil: &LinuxPencil
       internal_link: pencil.html
-      url: http://www.pencil-animation.org/
+      url: https://www.pencil2d.org/
     KolourPaint: &LinuxKolourPaint    
       internal_link: kolourpaint.html
       url: http://kolourpaint.sourceforge.net/
