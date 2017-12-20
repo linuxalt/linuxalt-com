@@ -82,8 +82,8 @@
       internal_link: qoppa-pdf-studio.html
       url: http://www.qoppa.com/pdfstudio/
       paid: 1
-    'Able2Extract Pro 11': &Able2ExtractPro11
-      internal_link: able2extract-pro-11.html
+    'Able2Extract Pro 12': &Able2ExtractPro
+      internal_link: able2extract-pro.html
       url: https://www.investintech.com/prod_a2e.htm
       paid: 1
   windows_software:
