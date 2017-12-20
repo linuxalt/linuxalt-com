@@ -35,6 +35,10 @@ module Jekyll
                    page['layout'] = 'linux-software' 
                    page['projecturl'] = d['linux_alternatives'][linux]['url']
                    page['internal_link'] = d['linux_alternatives'][linux]['internal_link']
+                   if d['linux_alternatives'][linux].has_key? 'paid'
+                       page['paid'] = d['linux_alternatives'][linux]['paid'] 
+                   end
+
 		   page['similar'] = Array.new()
 
            	   similar.each { |simsoft|

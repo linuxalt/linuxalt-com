@@ -23,6 +23,9 @@ module Jekyll
 		   linux_hash = Hash.new
                    linux_hash['name'] = linux
                    linux_hash['url'] = d['linux_alternatives'][linux]['url']
+                   if d['linux_alternatives'][linux].has_key? 'paid'
+                        linux_hash['paid'] = d['linux_alternatives'][linux]['paid']
+                   end 
                    linux_hash['internal_link'] = d['linux_alternatives'][linux]['internal_link']
                    software_hash["linux_alternatives"].push( linux_hash )
                }

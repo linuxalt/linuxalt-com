@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
+{% if page.paid %}
+<h2> {{ page.title }}: <a href="{{ page.projecturl }}" target="_new" rel="nofollow">{{ page.projecturl }}</a></h2>
+<h3> <font color="#3cb371"><strong>$ Paid</strong></font></h3>
+{% else %}
 <h2> {{ page.title }}: <a href="{{ page.projecturl }}" target="_new">{{ page.projecturl }}</a></h2>
+{% endif %}      
 
 {% if page.similar != empty %}
 <p>

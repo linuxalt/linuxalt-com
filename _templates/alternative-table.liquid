@@ -8,7 +8,11 @@
   <td>
     <ul> 
 {% for l in a.linux_alternatives %}
+     {% if l.paid %}
+      <li> <font color="#3cb371"><strong>$ Paid</strong></font> <a href="/linux-software/{{ l.internal_link }}">{{ l.name }}</a> (<a href="{{ l.url }}" target="_new" rel="nofollow">{{ l.url }}</a>)
+     {% else %}
       <li> <a href="/linux-software/{{ l.internal_link }}">{{ l.name }}</a> (<a href="{{ l.url }}" target="_new">{{ l.url }}</a>)
+     {% endif %}
 {% endfor %}
     </ul>
   </td>
