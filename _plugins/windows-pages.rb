@@ -20,6 +20,10 @@ module Jekyll
                    a['name'] = linux 
                    a['url'] = d['linux_alternatives'][linux]['url']
                    a['internal_link'] = d['linux_alternatives'][linux]['internal_link']
+                   if d['linux_alternatives'][linux].has_key? 'paid'
+                       a['paid'] = d['linux_alternatives'][linux]['paid']
+                   end
+
 	           alternatives.push( a )
            }
 

@@ -7,7 +7,11 @@ layout: default
 <p>
  <ul>
 {% for a in page.alternatives %}
+  {% if a.paid %}
+  <li> <font color="#3cb371"><strong>$ Paid</strong></font> <a href="/linux-software/{{ a.internal_link }}">{{ a.name }}</a> (<a href="{{ a.url }}" target="_new" rel="nofollow">{{ a.url }}</a>)
+  {% else %}
   <li> <a href="/linux-software/{{ a.internal_link }}">{{ a.name }}</a> (<a href="{{ a.url }}" target="_new">{{ a.url }}</a>)
+  {% endif %}
 {% endfor %}
 
  </ul>
