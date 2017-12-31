@@ -183,35 +183,33 @@
 - linux_alternatives:
     Cinelerra: &LinuxCinelerra
       internal_link: Cinelerra.html
-      url: http://cvs.cinelerra.org/
-    cinefx: &Linuxcinefx
-      internal_link: cinefx.html
-      url: http://www.cinefx.org/ 
+      url: http://heroinewarrior.com/cinelerra.php
     Kino: &LinuxKino
       internal_link: Kino.html
       url: http://www.kinodv.org/
     LiVES: &LinuxLiVES
       internal_link: LiVES.html
-      url: http://lives.sourceforge.net/
+      url: http://lives-video.com/
     PiTiVi: &LinuxPiTiVi
       internal_link: PiTiVi.html
-      url: http://www.pitivi.org/wiki/Main_Page
+      url: http://www.pitivi.org
     Kdenlive: &Linuxkdenlive
       internal_link: kdenlive.html
-      url: http://kdenlive.sourceforge.net/
+      url: https://kdenlive.org/
     OpenShot: &LinuxOpenShot
       internal_link: openshot.html
       url: http://www.openshotvideo.com/ 
-    Lombard: &LinuxLombard
-      internal_link: lombard.html
-      url: http://yorba.org/lombard/
-    VideoLAN Movie Creator:
-      internal_link: videolan-movie-creator.html
-      url: http://trac.videolan.org/vlmc/
     Open Movie Editor:
       internal_link: Open_Movie_Editor.html
       url: http://www.openmovieeditor.org/
+    Flowblade:
+      internal_link: flowblade.html
+      url: https://jliljebl.github.io/flowblade/
   windows_software:
+    VEGAS Pro: 
+      internal_link: vegas-pro.html
+    VEGAS Movie Studio: 
+      internal_link: vegas-movie-studio.html
     Adobe Premiere: &WinAdobePremiere
       internal_link: adobe-premiere.html
     Windows Movie Maker: &WinMovieMaker
