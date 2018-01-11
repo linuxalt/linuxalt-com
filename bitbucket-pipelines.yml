@@ -5,6 +5,6 @@ pipelines:
     - step:
         name: Setup Build ENV
         script:
-          - apt-get install rubygems
-          - gem install jekyll bundler
+          - sudo apt install rubygems
+          - sudo gem install jekyll bundler
          
