@@ -1,6 +1,6 @@
 destination: ./_deploy
 lsi: false
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 permalink: /:categories/:year/:title.html 
 
