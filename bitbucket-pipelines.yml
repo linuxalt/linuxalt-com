@@ -4,6 +4,7 @@
    default:
      - step:
          script:
+           - apk add py-pygments
            - cp -r /opt/atlassian/pipelines/agent/build/* /srv/jekyll
            - chmod 777 -R /srv/jekyll
            - jekyll b
