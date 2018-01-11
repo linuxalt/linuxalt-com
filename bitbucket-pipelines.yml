@@ -4,7 +4,8 @@
    default:
      - step:
          script:
-           - jekyll build -s `pwd` -d `pwd`/_site
+           - cd $BITBUCKET_CLONE_DIR
+           - jekyll b
            - export AWS_ACCESS_KEY_ID="$S3_ID"
            - export AWS_SECRET_ACCESS_KEY="$S3_SECRET"
-           - aws --region us-west-1 s3 sync --delete `pwd`/_site s3://linuxalt-com/ --exclude '.git/*'
+           - aws --region us-west-1 s3 sync --delete _deploy s3://linuxalt-com/ --exclude '.git/*'
