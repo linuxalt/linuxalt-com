@@ -51,7 +51,8 @@ module Jekyll
     private
 
     def return_alternatives
-        YAML::load_file('_data/linux_alternatives.yaml') 
+	file = File.join(Dir.pwd, '_data/linux_alternatives.yaml')
+        YAML::load_file(file) 
     end
 
   end
