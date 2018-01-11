@@ -1,12 +1,10 @@
-# This is a sample build configuration for Other.
-# Check our guides at https://confluence.atlassian.com/x/5Q4SMw for more examples.
-# Only use spaces to indent your .yml configuration.
-# -----
-# You can specify a custom docker image from Docker Hub as your build environment.
-# image: atlassian/default-image:latest
+image: fstab/aws-cli
 
 pipelines:
   default:
     - step:
+        name: Setup Build ENV
         script:
-          - echo "Everything is awesome!"
+          - apt-get install rubygems
+          - gem install jekyll bundler
+         
