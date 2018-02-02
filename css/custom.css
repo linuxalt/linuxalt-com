@@ -21,7 +21,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #007ab3;
+    color: rgb(0,181,181);
 }
 
 p {
@@ -176,7 +176,7 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
 	padding: 100px 0;
-	background-color: #4ba3ed;
+	background-color: rgba(0,0,0,.8);
 	color: #fff;
 	}
 
