@@ -229,12 +229,14 @@ header .header-content .header-content-inner p {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
+    font-weight: bold;
     color: #4ba3ed!important;
     background-color: transparent;
 }
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
+    text-shadow: 0 0 25px #2381d1;
     background-color: transparent;
 }
 
