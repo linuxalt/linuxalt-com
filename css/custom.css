@@ -241,7 +241,7 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        background-color: rgba(0,0,0,.3);
     }
 
     .navbar-default .navbar-header .navbar-brand {
