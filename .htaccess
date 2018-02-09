@@ -3,6 +3,7 @@ layout: nil
 ---
 Options +FollowSymlinks
 RewriteEngine on
+RewriteCond %{SERVER_PORT} 80 [nc,or]
 rewritecond %{http_host} ^linuxalt.com [nc,or]
 rewritecond %{http_host} ^beta.linuxalt.com [nc,or]
 rewritecond %{http_host} ^linuxeq.com [nc,or]
@@ -11,7 +12,7 @@ rewritecond %{http_host} ^linuxalternative.com [nc,or]
 rewritecond %{http_host} ^www.linuxalternative.com [nc,or]
 rewritecond %{http_host} ^linuxequivalent.com [nc,or]
 rewritecond %{http_host} ^www.linuxequivalent.com [nc]
-rewriterule ^(.*)$ http://www.linuxalt.com/$1 [r=301,nc]
+rewriterule ^(.*)$ https://www.linuxalt.com/$1 [r=301,nc]
 
 RewriteRule ^articles\/2011\/configuring\-linux\-jack\-ardour2\-to\-work\-with\-the\-presonus\-firepod\.html$ http://www.linuxalt.com/articles/2011/configuring-linux-jack-ardour2-firepod.html [R=302,L]
 RewriteRule ^articles\/2011\/getting-on-the-bitcoin-bandwagon.html$ http://www.linuxalt.com/articles/2011/jumping-on-the-bitcoin-bandwagon.html [R=302,L]
