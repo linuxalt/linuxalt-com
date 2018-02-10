@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+<section class="content" id="core">
+<div class="container">
+
 {% if page.paid %}
 <h2> {{ page.title }}: <a href="{{ page.projecturl }}" target="_new" rel="nofollow">{{ page.projecturl }}</a></h2>
 <h3> <font color="#3cb371"><strong>$ Paid</strong></font></h3>
@@ -16,3 +19,6 @@ layout: default
 {% endif %}      
 
 {% include disqus.html %}
+  
+</div>
+</section>

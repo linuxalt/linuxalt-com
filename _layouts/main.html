@@ -2,18 +2,35 @@
 layout: default
 ---
 
-      <div class="box">
-       <h2>Articles</h2>
-        <ul>
-    {% for post in site.posts limit:5 %}
-          <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    {% endfor %}
-        </ul>
-      </div>
 
-      <div class="clear"></div>
+	<!-- Header -->
+	<header>
+		<div class="header-content">
+			<div class="header-content-inner">
+				<span style="font-size: 55px;">The Linux-Alternative Project</span>
+				<br/>
+				<h3>cuz Linux is free as in freedom</h3>
+				<br/><br/><br/><br/><br/><br/>
+				<a href="https://github.com/linuxalt/linuxalt-com/" class="btn btn-primary btn-lg"><span class="fa fa-github" style="font-size: 30px"></span><br/>Contribute to this site on GitHub!</a>
+			</div>
+		</div>
+	</header>
 
-      <div id="alternatives-table">
-       <h2>Alternatives</h2>
-        {% include alternative-table.html %}
-      </div>
+	<!-- Intro Section -->
+	<section class="intro">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				
+				<h2 class="section-heading">Making it easier to use Linux</h2>
+				<p class="text-light">
+					Welcome to the Linux Alternative Project (formerly the Linux Equivalent Project).<br/>My goal is to provide an informational website available to all linux users. The website is currently in beta form and I will periodically update the database with Windows software and the Linux equivalents and alternatives.
+				</p>
+				<br/>
+				<a href="../alternates-table" class="btn btn-default btn-lg"><span style="color: #4ba3ed;">See the Alternatives!</span></a>
+			</div>
+		</div>
+	</div>
+	</section>
+
+

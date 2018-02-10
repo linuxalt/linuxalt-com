@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-
-<article class="post">
+<section class="content" id="core">
+<div class="container">
+  
+<article>
 
   <h2> <a href="{{ site.url }}{{ page.url }}" rel="bookmark permalink" title="Permanent link to this post">{{ page.title }}</a></h2>
    <p> Posted on: {{ page.date | date: "%Y-%m-%d" }} </p>
@@ -22,6 +24,9 @@ layout: default
   </div>
 
 </article>
-<br \>
-<br \>
+<br/>
+<br/>
 {% include disqus.html %}
+
+</div>
+</section>

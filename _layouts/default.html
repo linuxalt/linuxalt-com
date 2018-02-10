@@ -1,8 +1,14 @@
 <!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<!-- Images by various sources under the Creative Commons CC0 license and/or the Creative Commons Zero license. 
+Although you can use them, for a more unique website, replace these images with your own. -->
 <html lang="en">
+
 <head>
+
+
  <title>
-  {% if page.title %} {{ page.title }} -{% endif %} The Linux Alternative Project
+ {% if page.title %} {{ page.title }} -{% endif %} The Linux Alternative Project
  </title>
  <meta http-equiv="Content-Language" content="English" />
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -12,73 +18,181 @@
  <link rel="alternate" type="application/rss+xml" title="The Linux Alternative Project RSS Feed" href="https://feeds.feedburner.com/TheLinuxAlternativeProject" />
 </head>
 
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>
+ 	{% if page.title %} {{ page.title }} -{% endif %} The Linux Alternative Project
+ 	</title>
+ 
+ 	<meta http-equiv="Content-Language" content="English" />
+ 	<meta name="google-site-verification" content="Lgfw0hbOlo7GLB3hunh92a49kNX53OURNHUpSXeig8g" />
+ 	 <link rel="alternate" type="application/rss+xml" title="The Linux Alternative Project RSS Feed" href="https://feeds.feedburner.com/TheLinuxAlternativeProject" />
+ 
+	<!-- Bootstrap Core CSS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+	<link href="../css/custom.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Custom Fonts from Google -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+		
+		<!-- Font Awesome-->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
 <body>
-<div id="top">
-    <div class="content">
+	<!-- Navigation -->
+	<nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<!-- Logo and responsive toggle -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><strong>The Linux Alternative Project</strong></a>
+			</div>
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="https://github.com/linuxalt/linuxalt-com/issues/">Suggest Software</a>
+					</li>
+					<li>
+						<a href="../linux-software/">Software Index</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Articles <span class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="about-us">
+							{% for post in site.posts limit:5 %}
+							<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+							{% endfor %}
+						</ul>
+					</li>
+					
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container -->
+	</nav>
 
-      <div style="float: left">
-       <h1><a href="/">The Linux Alternative Project</a></h1>
-      </div>
+	<!-- Content -->
 
-</div>			
-</div>
+		{{content}}
 
-<div class="content">
-	<div id="ad">
-          Welcome to the Linux Alternative Project (formerly the Linux Equivalent Project). My goal is to provide an informational website available to all linux users. The website is currently in beta form and I will periodically update the database with Windows software and the Linux equivalents and alternatives.
-	</div>
 
-        <div class="announce">
-         <a href="https://github.com/linuxalt/linuxalt-com">Contribute to this site at Github!</a> 
+
+<!--
+	<section class="content content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                	<h2 class="section-header">Content-2</h2>
+                	<p class="lead text-light">Description for Content 2</p>
+                	<a href="#" class="btn btn-default btn-lg">Test It</a>
+                </div>    
+                <div class="col-sm-6">
+                    <img class="img-responsive img-circle center-block" src="images/iphone.jpg" alt="">
+                </div>            
+                
+            </div>
         </div>
+    </section>    
 
-	<div id="main">
-		<div id="right_side">
-		  <div class="roundedbox">
-                    <h2>Navigate</h2>
-                    <hr>
-                    {% include menu.html %}
-                  </div>
-                  <br \>
-
-                 <div>
-                   {% include facebook.html %}
-                 </div>
-
-               </div>	
-		<div id="left_side">
-                    {{ content }}
-                </div>
+    
+	<div class="container-fluid">
+        <div class="row promo">
+        	<a href="#">
+				<div class="col-md-4 promo-item item-1">
+					<h3>
+						Unleash
+					</h3>
+				</div>
+            </a>
+            <a href="#">
+				<div class="col-md-4 promo-item item-2">
+					<h3>
+						Synergize
+					</h3>
+				</div>
+            </a>
+			
+			<a href="#">
+				<div class="col-md-4 promo-item item-3">
+					<h3>
+						Procrastinate
+					</h3>
+				</div>
+            </a>
         </div>
-</div>
-
-<div class="clear"></div>
-
-<div id="footer">
-  <div class="content">
-
-     <div style="float: left; width: 320px">
-       <h2>More Information</h2>
-       <ul>
-        <li><a href="/linux-software/index.html">Linux Software Index</a>
-        <li><a href="/social-networking.html">Social Networking</a>
-       </ul>
-     </div> 
-
-     <div style="float: left; width: 320px">
-      <h2>Links</h2>
-       {% include links.html %}
-     </div> 
-
-     <div style="float: right; width: 320px; text-align: right">
-      <a href="https://www.facebook.com/pages/The-Linux-Alternative-Project/129481340425546" target="_new"><img src="/images/facebook.png"></a>
-      <a href="http://feeds.feedburner.com/TheLinuxAlternativeProject" target="_new"><img src="/images/rss.png"></a>
     </div>
+	<section class="content content-3">
+        <div class="container">
+			<h2 class="section-header"><span class="fa fa-pushpin text-primary"></span><br> Content-3</h2>
+			<p class="lead text-muted">Description for Content 3</p> 
+                    <a href="#" class="btn btn-primary btn-lg">Try It</a>               
+            </div>
+        </div>
+    </section>
+-->
+	
+	<!-- Footer -->
+    <footer class="page-footer">
+    
+    	<!-- Contact Us -->
+        <div class="contact" id="contact">
+        	<div class="container">
+				<h2 class="section-heading">More information</h2>
+				<p><a class="text-light" href="../linux-software/index.html">Linux Software Index</a></p>
+				<p><a class="text-light" href="../social-networking.html">Social Networking</a></p>
+        	</div>
+        	<div class="container">
+        		<h2>Links</h2>
+        		{% include links.html %}
+        	</div>
+        </div>
+        	
+        <!-- Copyright etc -->
+        <div class="small-print">
+        	<div class="container">
+        		<p>Since 2006, The Linux Alternative Project!</p>
+        		<a href="https://www.facebook.com/pages/The-Linux-Alternative-Project/129481340425546" target="_new"><img src="images/facebook.png" alt="facebook"></a>
+			<a href="http://feeds.feedburner.com/TheLinuxAlternativeProject" target="_new"><img src="/images/rss.png" alt="RSS"></a>
+			{% include analytics.html %}
+        	</div>
+        </div>
+        
+    </footer>
 
-  </div>
-</div>
+    <!-- jQuery -->
+    <script src="../js/jquery-1.11.3.min.js"></script>
 
-<div class="content">Since 2006, The Linux Alternative Project!</div>
-{% include analytics.html %}
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    
+    <!-- Custom Javascript -->
+    <script src="../js/custom.js"></script>
+
 </body>
+
 </html>
