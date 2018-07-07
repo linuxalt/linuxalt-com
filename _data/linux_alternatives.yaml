@@ -1436,7 +1436,7 @@
   linux_alternatives:
     NFO Viewer:  
       internal_link: nfo-viewer.html
-      url: http://home.gna.org/nfoview/ 
+      url: https://otsaloma.io/nfoview/
   windows_software:
     DAMN NFO Viewer:
       internal_link: damn-nfo-viewer.html
