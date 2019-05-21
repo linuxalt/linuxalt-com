@@ -38,6 +38,8 @@
 ## ACDSee
 
 - linux_alternatives:
+    XnView MP: &LinuxXnViewMP
+      url: https://www.xnview.com/en/xnviewmp/
     Eye of GNOME: &LinuxEyeofGNOME
       internal_link: Eye_of_GNOME.html
       url: https://wiki.gnome.org/Apps/EyeOfGnome
